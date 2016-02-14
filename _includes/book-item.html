@@ -1,0 +1,16 @@
+<li class="book">
+  <div class="book-img">
+    <div class="shim"></div>
+    <img class="cover" src="/img/{{ book.cover-image }}">
+    
+    <!-- default hidden -->
+    <div class="more-info">
+      <a href="{{ book.permalink }}" class="more-link">More Info</a>
+    </div>
+  </div>
+  
+  <div class="book-info">
+    <span class="title">{{ book.title }}</span>
+    <span class="series">{{ book.series }}</span>
+  </div>
+</li>
