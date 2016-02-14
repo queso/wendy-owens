@@ -10,10 +10,12 @@ function preload(ele, imgName) {
   }
 
   // wait for image to load though
-  c.src = '/img/' + imgName;
+  c.src = baseUrl + '/img/' + imgName;
 }
 
 function preloadBG(ele, imgName) {
+  // todo: change baseUrl
+  var baseUrl = 'http://amandasaffer.github.io/wendy-owens';
   var c = new Image(); // create img element for preload
   var ele = ele;
   
