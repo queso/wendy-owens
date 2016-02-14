@@ -4,7 +4,7 @@ function preload(ele, imgName) {
   
   // when the image element is loaded, set the background image
   c.onload = function(){
-    $(ele).attr("src", '/img/' + imgName);
+    $(ele).attr("src", '{{ site.github.url }}/img/' + imgName);
   }
 
   // wait for image to load though
@@ -17,7 +17,7 @@ function preloadBG(ele, imgName) {
   
   // when the image element is loaded, set the background image
   c.onload = function(){
-    $(ele).css('background-image','url(/img/' + imgName + ')');
+    $(ele).css('background-image','url({{ site.github.url }}/img/' + imgName + ')');
   }
 
   // wait for image to load though
