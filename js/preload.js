@@ -23,7 +23,7 @@ function preloadBG(ele, imgName) {
   }
 
   // wait for image to load though
-  c.src = '/img/' + imgName;
+  c.src = $baseUrl + '/img/' + imgName;
 }
 
 
