@@ -334,3 +334,70 @@
 	  }
 	}
 }
+
+ /**
+  * Book Page
+  */
+
+ .single-book {
+ 		margin: 60px auto;
+ }
+
+ .single-book .book-info {
+ 	background: $cream;
+ 	padding: 40px;
+
+ 	> h4.book-title {
+ 		color: darken($accentblue, 10%);
+ 		font-size: 64px;
+ 		font-weight: 500;
+ 		margin: 0;
+ 		position: relative;
+ 		right: 4px;
+ 	}
+
+ 	> span.meta {
+ 		color: darken($cream, 35%);
+ 		font-size: 18px;
+ 		font-weight: 500;
+ 		margin-bottom: 20px;
+ 		display: block;
+ 		// opacity: .75;
+ 	}
+
+ 	> span.series {
+ 		font-size: 24px;
+ 		opacity: 1;
+ 		color: $accentblue;
+ 		margin-bottom: 5px;
+ 	}
+
+ 	> .btn-default {
+ 		border: none;
+ 		background: $accentblue;
+ 		color: white;
+ 		border-radius: 2px;
+ 		padding: 13px 20px;
+ 		font-size: 16px;
+ 		letter-spacing: .03rem;
+ 	}
+
+ 	> .btn-default:hover {
+ 		background: lighten($accentblue, 5%);
+ 		color: white;
+ 	}
+
+ 	> .btn-default > i.fa {
+ 		position: relative; 
+ 		top: 3px;
+ 		right: 3px;
+ 		font-size: 20px;
+ 	}
+ }
+
+ .book-info p {
+		line-height: 1.7;
+		font-size: 16px;
+		font-weight: 500;
+	}
+

@@ -2,10 +2,12 @@
 layout: book
 title:  "Do Anything"
 genre: "Young Adult Romance"
-cover-image: "do-anything.jpg"
 series: "The Wandering Hearts Series"
 category: "latest"
 permalink: "/books/do-anything"
+cover-image: "do-anything.jpg"
+price: "$3.99"
+buyLink: "#"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lobortis convallis imperdiet. Nunc porta lorem a maximus tincidunt. Nullam vel hendrerit est. Praesent a efficitur enim. Maecenas condimentum ipsum a justo pretium consequat. Duis malesuada dolor a nisl ornare consectetur. Nulla a purus dictum, ornare odio eget, fringilla libero. 

@@ -6,6 +6,8 @@ cover-image: "sacred-bloodlines.jpg"
 series: "The Sacred Guardians Series"
 category: "latest"
 permalink: "/books/sacred-bloodlines"
+price: "$1.99"
+buyLink: "#"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lobortis convallis imperdiet. Nunc porta lorem a maximus tincidunt. Nullam vel hendrerit est. Praesent a efficitur enim. Maecenas condimentum ipsum a justo pretium consequat. Duis malesuada dolor a nisl ornare consectetur. Nulla a purus dictum, ornare odio eget, fringilla libero. 

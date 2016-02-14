@@ -2,17 +2,21 @@
 layout: default
 ---
 
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="container single-book">
+  	<div class="row">
+  		<div class="col-md-4">
+  			<img class="cover" src="{{ site.github.url }}/img/{{ page.cover-image }}">
+  		</div>	
+  		<div class="col-md-8">
+  			<div class="book-info">
+  				<h4 class="book-title">{{ page.title }}</h4>
+  				<span class="meta series">{{ page.series }}</span>
+  				<span class="meta">{{ page.genre }}</span>
+  				
+  				{{ content }}
 
-  <div class="container">
-  	<header class="post-header">
-	    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-	    <p class="post-meta">{{ page.genre }}</p>
-	  </header>
-
-	  <div class="post-content" itemprop="articleBody">
-			{{ content }}
-	  </div>
+  				<a href="{{ page.buylink }}" class="btn btn-default"><i class="fa fa-amazon"></i> Buy for <strong>{{ page.price }}</strong></a>
+  			</div>
+  		</div>	
+  	</div>
   </div>
-
-</article>
