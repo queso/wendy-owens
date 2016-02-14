@@ -1,10 +1,12 @@
 function preload(ele, imgName) {
+  // todo: change baseUrl
+  var baseUrl = 'http://amandasaffer.github.io/wendy-owens';
   var c = new Image(); // create img element for preload
   var ele = ele;
   
   // when the image element is loaded, set the background image
   c.onload = function(){
-    $(ele).attr("src", '{{ site.github.url }}/img/' + imgName);
+    $(ele).attr("src", $baseUrl + '/img/' + imgName);
   }
 
   // wait for image to load though
@@ -17,7 +19,7 @@ function preloadBG(ele, imgName) {
   
   // when the image element is loaded, set the background image
   c.onload = function(){
-    $(ele).css('background-image','url({{ site.github.url }}/img/' + imgName + ')');
+    $(ele).css('background-image','url(' + $baseUrl + '/img/' + imgName + ')');
   }
 
   // wait for image to load though
