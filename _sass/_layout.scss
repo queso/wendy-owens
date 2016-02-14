@@ -1,0 +1,371 @@
+/**
+ * Content Section
+ */
+
+.content-section {
+    padding: 80px 0 20px;
+
+    &.ext-bottom {
+        padding-bottom: 90px;
+    }
+}
+
+.section-heading {
+    font-family: $sans-serif;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 40px;
+
+    h3.heading {
+        text-transform: uppercase;
+        font-size: 24px;
+        font-weight: 900;
+        line-height: 1;
+        color: $tan;
+        letter-spacing: .15rem;
+    }
+}
+
+/**
+ * Site header
+ */
+ .landing-hero {
+    background-color: #163D50;
+    background-image: url('/img/background.jpg');
+    background-size: cover;
+    position: relative;
+    margin: 0;
+    min-height: 550px;
+
+    .screen {
+        background: rgba(22,60,79,.89);
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+ }
+
+ .landing-hero img.book-covers {
+    width: 520px;
+    position: absolute;
+    right: -5px;
+    bottom: -85px;
+    z-index: 1;
+    display: none;
+
+    &.sacred-guardians {
+        width: 520px;
+        right: 0px;
+        bottom: -85px;
+    }
+
+    &.active {
+        display: inline;
+    }
+
+    @media (min-width: 768px) { 
+        width: 385px;
+        bottom: -75px;
+        right: -5px;
+        &.sacred-guardians { 
+            width: 360px; 
+            bottom: -75px;
+        }
+    }
+
+    @media (min-width: 992px) { 
+        width: 625px;
+        bottom: -145px;
+        right: -25px;
+        &.sacred-guardians { 
+            width: 600px; 
+            bottom: -125px;
+        }
+    }
+
+    @media (min-width: 1200px) { 
+        width: 725px;
+        bottom: -205px;
+        &.sacred-guardians { 
+            width: 700px; 
+            bottom: -215px;
+        }
+    }
+ }
+
+.site-header {
+    min-height: 115px;
+    padding: 25px 40px 25px;
+    background: #163C4E;
+    z-index: 100;
+
+    // Positioning context for the mobile navigation icon
+    position: relative;
+
+    &.landing {
+        padding: 25px 40px 25px;
+        background: transparent;
+    }
+
+    .header-logo img {
+        width: 250px;
+    }
+
+    .header-logo.light img {
+        width: 250px;
+    }
+
+    // everything over 768px (tablet screens)
+    @media handheld, screen and (min-width: 768px) {
+        .header-logo img {
+            width: 270px;
+        }
+
+        .header-logo.light img {
+            width: 310px;
+        }
+    }
+}
+
+.site-title {
+    padding: 0 15px 0;
+
+    @media (min-width: 768px) {
+        padding: 45px 15px 0;
+    }
+}
+
+.site-title h1.title {
+    font-size: 28px;
+    font-weight: 100;
+    line-height: 1.3;
+    margin: 15px 0 0;
+    color: #fff;
+
+    strong {
+        font-weight: 600;
+    }
+
+     @media (min-width: 768px) { 
+        font-size: 40px;
+    }
+
+    /* Medium devices (desktops, 992px and up) */
+    @media (min-width: 992px) { 
+        font-size: 40px;
+    }
+
+    /* Medium devices (desktops, 992px and up) */
+    @media (min-width: 1200px) { 
+        font-size: 50px;
+    }
+}
+
+.site-nav {
+    float: right;
+    line-height: 56px;
+    margin-top: 10px;
+
+    .menu-icon {
+        display: none;
+    }
+
+    .page-link {
+        color: white;
+        line-height: $base-line-height;
+        font-weight: 500;
+        letter-spacing: .05rem;
+
+        // Gaps between nav items, but not on the last one
+        &:not(:last-child) {
+            margin-right: 40px;
+        }
+    }
+
+    &.landing .page-link {
+        color: #fff;
+    }
+
+    @include media-query($on-palm) {
+        position: absolute;
+        top: 9px;
+        right: $spacing-unit / 2;
+        background-color: $background-color;
+        border: 1px solid $grey-color-light;
+        border-radius: 5px;
+        text-align: right;
+
+        .menu-icon {
+            display: block;
+            float: right;
+            width: 36px;
+            height: 26px;
+            line-height: 0;
+            padding-top: 10px;
+            text-align: center;
+
+            > svg {
+                width: 18px;
+                height: 15px;
+
+                path {
+                    fill: $grey-color-dark;
+                }
+            }
+        }
+
+        .page-link {
+            display: block;
+            padding: 5px 10px;
+
+            &:not(:last-child) {
+                margin-right: 0;
+            }
+            margin-left: 20px;
+        }
+    }
+}
+
+
+/**
+ * Page Title
+ */
+
+.container.title {
+    text-align: center;
+    margin-top: 80px;
+
+    h2.page-title {
+        color: $accentblue;
+        font-size: 46px;
+        font-weight: 900;
+    }
+
+    .divide {
+        width: 20%;
+        border-radius: 3px;
+        height: 2px;
+        background: #CECBC5;
+        opacity: .5;
+        margin: 0 auto;
+    }
+}
+
+
+/**
+ * Site footer
+ */
+.site-footer {
+    text-align: center;
+    margin: 100px 0 50px;
+
+    .social-buttons {
+        margin: 20px 0 45px;
+    }
+}
+
+.site-footer img.footer-logo {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+}
+
+.social-buttons > .social {
+    padding: 13px 25px 14px;
+    border: none;
+    background: $accentblue;
+    color: white;
+    border-radius: 2px;
+    margin: 10px 4px;
+    font-size: 16px;
+    letter-spacing: .03rem;
+
+    &.twitter { background: #1D99DE; }
+    &.twitter:hover { background: lighten(#1D99DE, 5%); }
+    &.facebook { background: #3052A2; }
+    &.facebook:hover { background: lighten(#3052A2, 5%); }
+    &.goodreads { background: #D07D44; }
+    &.goodreads:hover { background: lighten(#D07D44, 5%); }
+
+    i.fa {
+        position: relative;
+        right: 6px;
+        top: 3px;
+        font-size: 24px;
+    }
+}
+
+
+/**
+ * Page content
+ */
+
+.page-heading {
+    font-size: 20px;
+}
+
+.post-list {
+    margin-left: 0;
+    list-style: none;
+
+    > li {
+        margin-bottom: $spacing-unit;
+    }
+}
+
+.post-meta {
+    font-size: $small-font-size;
+    color: $grey-color;
+}
+
+.post-link {
+    display: block;
+    font-size: 24px;
+}
+
+
+
+/**
+ * Posts
+ */
+.post-header {
+    margin-bottom: $spacing-unit;
+}
+
+.post-title {
+    font-size: 42px;
+    letter-spacing: -1px;
+    line-height: 1;
+
+    @include media-query($on-laptop) {
+        font-size: 36px;
+    }
+}
+
+.post-content {
+    margin-bottom: $spacing-unit;
+
+    h2 {
+        font-size: 32px;
+
+        @include media-query($on-laptop) {
+            font-size: 28px;
+        }
+    }
+
+    h3 {
+        font-size: 26px;
+
+        @include media-query($on-laptop) {
+            font-size: 22px;
+        }
+    }
+
+    h4 {
+        font-size: 20px;
+
+        @include media-query($on-laptop) {
+            font-size: 18px;
+        }
+    }
+}
