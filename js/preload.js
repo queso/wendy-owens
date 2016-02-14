@@ -6,7 +6,7 @@ function preload(ele, imgName) {
   
   // when the image element is loaded, set the background image
   c.onload = function(){
-    $(ele).attr("src", $baseUrl + '/img/' + imgName);
+    $(ele).attr("src", baseUrl + '/img/' + imgName);
   }
 
   // wait for image to load though
@@ -19,11 +19,11 @@ function preloadBG(ele, imgName) {
   
   // when the image element is loaded, set the background image
   c.onload = function(){
-    $(ele).css('background-image','url(' + $baseUrl + '/img/' + imgName + ')');
+    $(ele).css('background-image','url(' + baseUrl + '/img/' + imgName + ')');
   }
 
   // wait for image to load though
-  c.src = $baseUrl + '/img/' + imgName;
+  c.src = baseUrl + '/img/' + imgName;
 }
 
 
