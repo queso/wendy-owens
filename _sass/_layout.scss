@@ -66,7 +66,7 @@
     @media (min-width: 768px) { 
         width: 385px;
         bottom: -75px;
-        right: -5px;
+        right: 0;
         &.sacred-guardians { 
             width: 360px; 
             bottom: -75px;
@@ -76,7 +76,7 @@
     @media (min-width: 992px) { 
         width: 625px;
         bottom: -145px;
-        right: -25px;
+        right: 0;
         &.sacred-guardians { 
             width: 600px; 
             bottom: -125px;
@@ -84,6 +84,15 @@
     }
 
     @media (min-width: 1200px) { 
+        width: 625px;
+        bottom: -205px;
+        &.sacred-guardians { 
+            width: 700px; 
+            bottom: -215px;
+        }
+    }
+
+    @media (min-width: 1360px) { 
         width: 725px;
         bottom: -205px;
         &.sacred-guardians { 
