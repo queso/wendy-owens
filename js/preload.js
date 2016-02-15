@@ -1,6 +1,6 @@
 function preload(ele, imgName) {
   // todo: change baseUrl
-  var baseUrl = 'http://amandasaffer.github.io/wendy-owens';
+  var baseUrl = 'http://queso.github.io/wendy-owens';
   var c = new Image(); // create img element for preload
   var ele = ele;
   
@@ -15,7 +15,7 @@ function preload(ele, imgName) {
 
 function preloadBG(ele, imgName) {
   // todo: change baseUrl
-  var baseUrl = 'http://amandasaffer.github.io/wendy-owens';
+  var baseUrl = 'http://queso.github.io/wendy-owens';
   var c = new Image(); // create img element for preload
   var ele = ele;
   
