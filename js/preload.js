@@ -1,9 +1,8 @@
 function preload(ele, imgName) {
-  // todo: change baseUrl
-  var baseUrl = 'http://queso.github.io/wendy-owens';
+  var baseUrl = 'http://wendyowensbooks.com';
   var c = new Image(); // create img element for preload
   var ele = ele;
-  
+
   // when the image element is loaded, set the background image
   c.onload = function(){
     $(ele).attr("src", baseUrl + '/img/' + imgName);
@@ -14,11 +13,10 @@ function preload(ele, imgName) {
 }
 
 function preloadBG(ele, imgName) {
-  // todo: change baseUrl
-  var baseUrl = 'http://queso.github.io/wendy-owens';
+  var baseUrl = 'http://wendyowensbooks.com';
   var c = new Image(); // create img element for preload
   var ele = ele;
-  
+
   // when the image element is loaded, set the background image
   c.onload = function(){
     $(ele).css('background-image','url(' + baseUrl + '/img/' + imgName + ')');
@@ -47,7 +45,7 @@ function cycleImages() {
   $active.removeClass('active');
   $next.addClass('active');
   $lit.removeClass('lit');
-  $nextlit.addClass('lit'); 
+  $nextlit.addClass('lit');
 }
 
 $(document).ready(function() {
