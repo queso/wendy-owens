@@ -20,7 +20,7 @@ collections:
     output: true
     title: Books
     permalink: /books/:path/
-  series:
+  bookGroups:
     output: true
     title: Series
     permalink: /series/:path/

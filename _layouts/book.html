@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{% assign series = site.series | where: "title", page.series %}
+{% assign bookGroups = site.bookGroups | where: "title", page.series %}
 
   <div class="container single-book">
     <div class="row">
@@ -11,7 +11,9 @@ layout: default
       <div class="col-sm-8 col-md-8">
         <div class="book-info">
           <h4 class="book-title">{{ page.title }}</h4>
-          <span class="meta series">{{ series.title }}</span>
+          {% for group in bookGroups %}
+          <span class="meta series"><a href="{{group.url}}">{{ group.title }}</a></span>
+          {% endfor %}
           <span class="meta">{{ page.genre }}</span>
 
           {{ content }}
