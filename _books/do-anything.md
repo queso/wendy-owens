@@ -3,7 +3,6 @@ layout: book
 title:  "Do Anything"
 genre: "Romance"
 series: "The Wandering Hearts Series"
-category: "latest"
 permalink: "/books/do-anything"
 cover-image: "do-anything.jpg"
 price: "$3.99"

@@ -4,10 +4,10 @@ title:  "Sacred Bloodlines"
 genre: "Young Adult Fantasy"
 cover-image: "sacred-bloodlines.jpg"
 series: "The Sacred Guardians Series"
-category: "latest"
 permalink: "/books/sacred-bloodlines"
+bookNumber: 1
 price: "Free"
-buyLink: "https://www.amazon.com/gp/product/B006C7KFI2/ref=as_li_tl?ie=UTF8&tag=owensmc-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B006C7KFI2&linkId=e210d199c53f3710e60948e5efd84fd2"
+amazonLink: "https://www.amazon.com/gp/product/B006C7KFI2/ref=as_li_tl?ie=UTF8&tag=owensmc-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B006C7KFI2&linkId=e210d199c53f3710e60948e5efd84fd2"
 ---
 What happens when you find out all the horror you've seen in the world is more than just bad luck? When you find out there is a boogyman? 
 

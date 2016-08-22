@@ -4,8 +4,8 @@ title:  "Stubborn Love"
 genre: "Romance"
 series:  "The Stubborn Love Series"
 cover-image: "stubborn-love.jpg"
-category: "latest"
 permalink: "/books/stubborn-love"
+bookNumber: 1
 price: "$3.99"
 amazonLink: "https://www.amazon.com/gp/product/B00DJF2862/ref=as_li_tl?ie=UTF8&tag=owensmc-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B00DJF2862&linkId=00bf97d6e5ac94db8ed803b7375d76dd"
 ---
