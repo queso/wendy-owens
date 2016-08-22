@@ -2,7 +2,7 @@
 layout: default
 title: Books by Wendy
 ---
-{% assign books = site.books | where: "series", page.title %}
+{% assign books = site.books | where: "series", page.title | sort: 'bookNumber' %}
 <div class="page-content">
 
   <div class="container title">
