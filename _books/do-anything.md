@@ -1,13 +1,14 @@
 ---
 layout: book
 title:  "Do Anything"
-genre: "Young Adult Romance"
+genre: "Romance"
 series: "The Wandering Hearts Series"
+seriesPermalink: "/series/the-wandering-hearts"
 category: "latest"
 permalink: "/books/do-anything"
 cover-image: "do-anything.jpg"
 price: "$3.99"
-buyLink: "#"
+amazonLink: "https://www.amazon.com/gp/product/B00JEN5Y0U/ref=as_li_tl?ie=UTF8&tag=owensmc-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B00JEN5Y0U&linkId=31016d7567ff795b7031fe2b8cabbb99"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lobortis convallis imperdiet. Nunc porta lorem a maximus tincidunt. Nullam vel hendrerit est. Praesent a efficitur enim. Maecenas condimentum ipsum a justo pretium consequat. Duis malesuada dolor a nisl ornare consectetur. Nulla a purus dictum, ornare odio eget, fringilla libero. 

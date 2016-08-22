@@ -1,22 +1,23 @@
 ---
 layout: default
 ---
+{% assign series = site.series | where: "title", page.series %}
 
   <div class="container single-book">
-  	<div class="row">
-  		<div class="col-sm-4 col-md-4">
-  			<img class="cover" src="{{ site.github.url }}/img/{{ page.cover-image }}">
-  		</div>	
-  		<div class="col-sm-8 col-md-8">
-  			<div class="book-info">
-  				<h4 class="book-title">{{ page.title }}</h4>
-  				<span class="meta series">{{ page.series }}</span>
-  				<span class="meta">{{ page.genre }}</span>
-  				
-  				{{ content }}
+    <div class="row">
+      <div class="col-sm-4 col-md-4">
+        <img class="cover" src="{{ site.github.url }}/img/{{ page.cover-image }}">
+      </div>
+      <div class="col-sm-8 col-md-8">
+        <div class="book-info">
+          <h4 class="book-title">{{ page.title }}</h4>
+          <span class="meta series">{{ series.title }}</span>
+          <span class="meta">{{ page.genre }}</span>
 
-  				<a href="{{ page.buylink }}" class="btn btn-default"><i class="fa fa-amazon"></i> Buy for <strong>{{ page.price }}</strong></a>
-  			</div>
-  		</div>	
-  	</div>
+          {{ content }}
+
+          <a href="{{ page.amazonLink }}" class="btn btn-default"><i class="fa fa-amazon"></i> Buy for <strong>{{ page.price }}</strong></a>
+        </div>
+      </div>
+    </div>
   </div>
