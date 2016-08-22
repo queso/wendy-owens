@@ -7,6 +7,7 @@ series: "The Wandering Hearts Series"
 category: "latest"
 permalink: "/books/it-matters-to-me"
 price: "$3.99"
+bookNumber: 2
 amazonLink: "https://www.amazon.com/gp/product/B01D3I7YRC/ref=as_li_tl?ie=UTF8&tag=owensmc-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B01D3I7YRC&linkId=daa332dcecbf84852e04b7d062321cd2"
 ---
 Kenzie feels like she’s suffocating, smothered by her own life.

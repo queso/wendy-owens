@@ -4,9 +4,9 @@ title: Books by Wendy
 permalink: /books/
 ---
 
-{% assign booksRomance = site.books | where: "genre", "Romance" %}
-{% assign booksYAFantasy = site.books | where: "genre", "Young Adult Fantasy" %}
-{% assign booksNAFantasy = site.books | where: "genre", "New Adult Fantasy" %}
+{% assign booksRomance = site.books | where: "genre", "Romance" | sort: 'bookNumber' | sort: 'series' %}
+{% assign booksYAFantasy = site.books | where: "genre", "Young Adult Fantasy" | sort: 'bookNumber' | sort: 'series' %}
+{% assign booksNAFantasy = site.books | where: "genre", "New Adult Fantasy" | sort: 'bookNumber' | sort: 'series' %}
 
 <div class="page-content">
 
