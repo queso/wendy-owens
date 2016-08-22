@@ -1,14 +1,15 @@
 ---
 layout: book
 title:  "Wash Me Away"
-genre: "Young Adult Romance"
+genre: "Romance"
 cover-image: "wash-me-away.jpg"
 category: "latest"
 permalink: "/books/wash-me-away"
-price: "$1.99"
-buyLink: "#"
+price: "$2.99"
+amazonLink: "https://www.amazon.com/gp/product/B00WNWGH0A/ref=as_li_tl?ie=UTF8&tag=owensmc-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B00WNWGH0A&linkId=04ff7c85afe1da5891b83575dbb89a27"
 ---
+Monsters have a way of following you.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lobortis convallis imperdiet. Nunc porta lorem a maximus tincidunt. Nullam vel hendrerit est. Praesent a efficitur enim. Maecenas condimentum ipsum a justo pretium consequat. Duis malesuada dolor a nisl ornare consectetur. Nulla a purus dictum, ornare odio eget, fringilla libero. 
+Immersed in a new world at boarding school, Addy Buckley learns she’s not the only one with secrets. While trying to navigate the minefield of painful lies that seem to be rattling around her family’s past, she meets soft on the eyes and heavy on the heart, Napoleon Blake.
 
-Mauris vel purus tortor. Etiam scelerisque, eros at tempus convallis, nisl leo mollis purus, vel pharetra urna est id metus. In eu diam non est ornare ultricies. Suspendisse ut augue dictum nulla sagittis viverra quis at neque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut sed diam et elit suscipit semper ac vel orci. Sed placerat efficitur nisi, ut sodales orci viverra eu.
+When faced with the darkness, Addy must decide to cling to her new life and friends or let the monster carry her away. The choice is hers, sink or swim.
