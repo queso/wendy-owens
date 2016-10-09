@@ -25,6 +25,7 @@
 <script type="text/javascript">
   $(document).ready(function() {
     $('a.buyAmazon').on('click', function(event) {
+      event.preventDefault();
       var bookName = $(event.target).data('book');
       console.log($(event.target));
       var tagBookName = bookName.replace(/\s/g, "");
@@ -33,6 +34,7 @@
         tags: ['clickedAmazon', 'clickedAmazon' + tagBookName, 'clicked' + tagBookName]
       }]);
 
+      window.location.href = $(event.target).attr('href');
     });
   });
 </script>
