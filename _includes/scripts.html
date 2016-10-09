@@ -28,7 +28,7 @@
       var bookName = $(event.target).data('book');
       _dcq.push(['track', 'Clicked to Amazon', {book: bookName}])
       _dcq.push(['identify', {
-        tags: ['clickedAmazon', 'clickedAmazon' + bookName.replace(" ", "")]
+        tags: ['clickedAmazon', 'clickedAmazon' + bookName.replace(/\s/g, "")]
       }]);
 
     });
