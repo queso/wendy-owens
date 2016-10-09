@@ -26,6 +26,8 @@
   $(document).ready(function() {
     $('a.buyAmazon').on('click', function(event) {
       var bookName = $(event.target).data('book');
+      console.log($(event.target));
+      alert(bookName);
       _dcq.push(['track', 'Clicked to Amazon', {book: bookName}])
       _dcq.push(['identify', {
         tags: ['clickedAmazon', 'clickedAmazon' + bookName.replace(/\s/g, "")]
