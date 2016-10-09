@@ -25,9 +25,11 @@
 <script type="text/javascript">
   $(document).ready(function() {
     $('a.buyAmazon').click(function(event) {
-      event.preventDefault();
       var bookName = $(event.target).data('book');
       _dcq.push(['track', 'Clicked to Amazon', {book: bookName}])
+      _dcq.push(['identify', {
+        tags: ['clickedAmazon' + bookName.replace(" ", "")]
+      }]);
 
     });
   });
