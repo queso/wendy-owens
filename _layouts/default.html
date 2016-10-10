@@ -22,7 +22,7 @@
         var tagBookName = bookName.replace(/\s/g, "");
         _dcq.push(['track', 'Viewed a book', {book: bookName}])
         _dcq.push(['identify', {
-          tags: ['viewedABook', 'viewed' + tagBookName]
+          tags: ['visitedABook', 'visited' + tagBookName]
         }]);
       </script>
     {%endif%}
