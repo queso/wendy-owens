@@ -14,6 +14,18 @@
     {% include newsletter.html %}
     {% include footer.html %}
     {% include scripts.html %}
+    {% if page.layout == "book" %}
+      <script type="text/javascript">
+        var target = $('a.buyAmazon');
+        var bookName = target.data('book');
+        console.log(target);
+        var tagBookName = bookName.replace(/\s/g, "");
+        _dcq.push(['track', 'Viewed a book', {book: bookName}])
+        _dcq.push(['identify', {
+          tags: ['viewedABook', 'viewed' + tagBookName]
+        }]);
+      </script>
+    {%endif%}
   </body>
 
 </html>
