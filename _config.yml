@@ -7,7 +7,7 @@
 
 # Site settings
 title: Wendy Owens
-email: wendy@orangewillow.com
+email: me@wendyowensbooks.com
 description: > # this means to ignore newlines until "baseurl:"
   Wendy Owens is an Indie eBook Author who has written series New Adult Romance 
   series Stubborn Love & Young Adult Fantasy Sacred Guardians saga.
@@ -24,6 +24,10 @@ collections:
     output: true
     title: Series
     permalink: /series/:path/
+  genres:
+    output: true
+    title: Genre
+    permalink: /genre/:path/
 
 # Build settings
 markdown: kramdown
