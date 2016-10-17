@@ -17,7 +17,10 @@ twitter_username: WendyLOwens
 twitter:
   username: WendyLOwens
 
+jekyll-mentions: https://twitter.com
+
 gems:
+  - jekyll-mentions
   - jekyll-seo-tag
   - jekyll-feed
   - jekyll-sitemap
