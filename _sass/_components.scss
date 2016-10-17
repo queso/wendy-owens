@@ -255,6 +255,28 @@
  	}
  }
 
+  .blog-title {
+    color: $accentblue;
+  }
+
+  .post-meta {
+    font-size: 13px;
+    color: grey;
+  }
+
+  .blog-post {
+    background: $cream;
+    height: auto;
+    padding: 15px 25px;;
+
+    p {
+      line-height: 1.7;
+      font-size: 16px;
+      font-weight: 500;
+      margin-bottom: 15px;
+    }
+  }
+
  #expanded-menu {
  	background: darken(#163D50, 10%);
 	position: absolute;
