@@ -16,7 +16,7 @@ url: "http://wendyowensbooks.com" # the base hostname & protocol for your site
 twitter_username: WendyLOwens
 
 gems:
-  - jekyll-seo
+  - jekyll-seo-tag
   - jekyll-feed
   - jekyll-sitemap
 
