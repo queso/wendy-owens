@@ -20,6 +20,7 @@ twitter:
 jekyll-mentions: https://twitter.com
 
 gems:
+  - jemoji
   - jekyll-mentions
   - jekyll-seo-tag
   - jekyll-feed
