@@ -3,6 +3,7 @@ layout: post
 title: 15 of the Greatest Books!
 excerpt_separator: <!--more-->
 tags: books
+image: /img/posts/72H.jpg
 ---
 The Greatest Books of All Time...
 
