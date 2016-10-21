@@ -3,6 +3,7 @@ layout: book
 title:  "Burning Destiny"
 genre: "New Adult Fantasy"
 cover-image: "burning-destiny.jpg"
+image: "/img/burning-destiny.jpg"
 series: "The Tynder Crown Chronicles"
 category: "latest"
 permalink: "/books/burning-destiny"
