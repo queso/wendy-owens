@@ -8,6 +8,8 @@ The Greatest Books of All Time...
 
 Okay, fine. These aren’t the greatest of all time, but they are some of *my* favorites. It is my firm belief that with every book I read I become a better author. My vocabulary grows, the way I view ideas shifts, the way I use the english language is influenced. All of these things are important to grow. Luckily I love to read!
 
+![Holding a book]({{ site.url }}/img/posts/72H.jpg)
+
 <!--more-->
 
 My taste in books is as eclectic as my taste in music. I’m not sure if this is normal for other book lovers, but I don’t just read in one genre. I read Fantasy, Paranormal, Romance, Thrillers. In fact there is very little I don’t read. Today I want to share with you a list of 15 of my favorites.
