@@ -3,13 +3,13 @@ layout: post
 title: 15 of the Greatest Books!
 excerpt_separator: <!--more-->
 tags: books
-image: /img/posts/72H.jpg
+image: /img/posts/15-greatest.jpg
 ---
 The Greatest Books of All Time...
 
 Okay, fine. These aren’t the greatest of all time, but they are some of *my* favorites. It is my firm belief that with every book I read I become a better author. My vocabulary grows, the way I view ideas shifts, the way I use the english language is influenced. All of these things are important to grow. Luckily I love to read!
 
-![Holding a book]({{ site.url }}/img/posts/72H.jpg)
+![Holding a book]({{ site.url }}/img/posts/15-greatest.jpg)
 
 <!--more-->
 
