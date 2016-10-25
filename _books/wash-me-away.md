@@ -7,6 +7,8 @@ category: "latest"
 permalink: "/books/wash-me-away"
 price: "$2.99"
 amazonLink: "https://www.amazon.com/gp/product/B00WNWGH0A/ref=as_li_tl?ie=UTF8&tag=owensmc-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B00WNWGH0A&linkId=04ff7c85afe1da5891b83575dbb89a27"
+rating: 4.6
+reviewCount: 39
 ---
 Monsters have a way of following you.
 

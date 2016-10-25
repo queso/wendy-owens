@@ -8,6 +8,8 @@ permalink: "/books/unhallowed-curse"
 price: "$2.99"
 bookNumber: 2
 amazonLink: "https://www.amazon.com/gp/product/B007PX46LE/ref=as_li_tl?ie=UTF8&tag=owensmc-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B007PX46LE&linkId=bc0a35a0f357eba0fc59e732b73c8c95"
+rating: 4.4
+reviewCount: 33
 ---
 Some people are born into love, some people are born into war, when Gabe discovered he was a Guardian Angel, his life was suddenly thrust into both. If this hidden war wasn't enough to deal with, Gabe learns he is fated to be the great protector who will one day deliver the last prophet to either safety or death. All of these revelations didn't matter for Gabe, he only cared that his new life included Sophie. 
 

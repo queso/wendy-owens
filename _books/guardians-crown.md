@@ -9,6 +9,8 @@ permalink: "/books/the-guardians-crown"
 price: "$3.99"
 bookNumber: 5
 amazonLink: "https://www.amazon.com/gp/product/B01KAIDXZK/ref=as_li_tl?ie=UTF8&tag=owensmc-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B01KAIDXZK&linkId=36d5ebcf12484ee2e9ccd6bad6b18a13"
+rating: 4
+reviewCount: 2
 ---
 The world will never be the same. The veil on Earth has been lifted. War has begun and humans have started to choose sides. 
 

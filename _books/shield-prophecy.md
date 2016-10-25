@@ -8,6 +8,8 @@ permalink: "/books/the-shield-prophecy"
 price: "$3.99"
 bookNumber: 3
 amazonLink: "https://www.amazon.com/gp/product/B00AVE60JK/ref=as_li_tl?ie=UTF8&tag=owensmc-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B00AVE60JK&linkId=6f90ab4966dae7623a14d5eb765679af"
+rating: 4.5
+reviewCount: 30
 ---
 Five years have passed since Gabe abandoned Rampart, deserting his destiny and closest friends. The struggles Gabe has endured to stay alive have changed him, hardening him into a man unwilling to trust anyone or anything, dealing with difficulties connecting with the outside world.
 
