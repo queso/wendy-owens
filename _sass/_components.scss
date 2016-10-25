@@ -283,10 +283,14 @@
   }
 
   .single-post {
-    p > img {
-      float: left;
-      width: 50%;
-      margin: 25px 25px 25px 0px;
+    p {
+      font-size: 17px;
+
+      img {
+        float: left;
+        width: 50%;
+        margin: 25px 25px 25px 0px;
+      }
     }
   }
 
