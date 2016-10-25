@@ -282,6 +282,14 @@
     }
   }
 
+  .single-post {
+    p > img {
+      float: left;
+      width: 50%;
+      margin: 25px 25px 25px 0px;
+    }
+  }
+
  #expanded-menu {
  	background: darken(#163D50, 10%);
 	position: absolute;
