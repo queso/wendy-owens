@@ -20,6 +20,10 @@ google_site_verification: "cAfcH7-X2Arp0c2IkS8N6cbzar1pY9HDsbYEPl4dndU"
 
 jekyll-mentions: https://twitter.com
 
+author:
+  twitter: WendyLOwens
+  img: /img/wendy.jpg
+
 gems:
   - jemoji
   - jekyll-mentions
