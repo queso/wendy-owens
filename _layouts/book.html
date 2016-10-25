@@ -3,14 +3,14 @@ layout: default
 ---
 {% assign bookGroups = site.bookGroups | where: "title", page.series %}
 
-  <div class="container single-book">
+  <div itemscope itemtype="http://schema.org/Product" class="container single-book">
     <div class="row">
       <div class="col-sm-4 col-md-4">
-        <img class="cover" src="{{ site.github.url }}/img/{{ page.cover-image }}">
+        <img itemprop="image" class="cover" src="{{ site.github.url }}/img/{{ page.cover-image }}">
       </div>
       <div class="col-sm-8 col-md-8">
         <div class="book-info">
-          <h4 class="book-title">{{ page.title }}</h4>
+          <h4 itemprop="name" class="book-title">{{ page.title }}</h4>
           {% for group in bookGroups %}
           <span class="meta series"><a href="{{group.url}}">{{ group.title }}</a></span>
           {% endfor %}
@@ -18,6 +18,11 @@ layout: default
 
           {{ content }}
 
+          <div>
+            <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+              <span itemprop="ratingValue">{{ page.rating }}</span> stars, based on <span itemprop="reviewCount">{{ page.reviewCount }}</span> reviews
+            </span>
+          </div>
           <a href="{{ page.amazonLink }}" data-book="{{ page.title }}" class="buyAmazon btn btn-default"><i class="fa fa-amazon"></i> Buy for <strong>{{ page.price }}</strong></a>
         </div>
       </div>
