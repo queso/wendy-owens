@@ -282,12 +282,13 @@
     }
   }
 
-  .social-buttons {
-    border: 1px solid #ccc;
-    padding-top: 15px;
-  }
 
   .single-post {
+    .social-buttons {
+      border: 1px solid #ccc;
+      padding-top: 15px;
+    }
+
     p {
       font-size: 17px;
 
