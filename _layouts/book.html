@@ -23,7 +23,7 @@ layout: default
         <div class="book-details">
           <h4 itemprop="name" class="book-title">{{ page.title }}</h4>
           {% for group in bookGroups %}
-          <span class="meta series"><a href="{{group.url}}">{{ group.title }}</a></span>
+          <span class="meta series"><a href="{{group.url}}">{{ group.series }}</a></span>
           {% endfor %}
           <span class="meta">{{ page.genre }}</span>
 
