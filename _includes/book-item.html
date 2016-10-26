@@ -16,5 +16,8 @@
     {% for group in bookGroups %}
       <span class="series"><a href="{{site.github.url}}{{group.url}}">{{ book.series }}</a></span>
     {% endfor %}
+    {% if book.bookNumber %}
+      <span>Book {{book.bookNumber}}</span>
+    {% endif %}
   </div>
 </li>
