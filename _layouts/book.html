@@ -1,12 +1,22 @@
 ---
 layout: default
 ---
-{% assign bookGroups = site.bookGroups | where: "title", page.series %}
+{% assign bookGroups = site.bookGroups | where: "series", page.series %}
 
   <div itemscope itemtype="http://schema.org/Product" class="container single-book">
     <div class="row">
       <div class="col-sm-4 col-md-4">
         <img itemprop="image" class="cover" src="{{ site.github.url }}/img/{{ page.cover-image }}">
+        <div style="text-align: center;padding-top: 10px;">
+          <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+            <span itemprop="ratingValue">{{ page.rating }}</span> stars, based on <span itemprop="reviewCount">{{ page.reviewCount }}</span> reviews
+          </span>
+        </div>
+        <div class="row">
+          <div class="col-xs-offset-3 col-xs-4">
+            <a href="{{ page.amazonLink }}" data-book="{{ page.title }}" class="buyAmazon btn btn-default"><i class="fa fa-amazon"></i> Buy for <strong>{{ page.price }}</strong></a>
+          </div>
+        </div>
       </div>
       <div class="col-sm-8 col-md-8">
         <div class="book-info">
@@ -18,12 +28,6 @@ layout: default
 
           {{ content }}
 
-          <div>
-            <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
-              <span itemprop="ratingValue">{{ page.rating }}</span> stars, based on <span itemprop="reviewCount">{{ page.reviewCount }}</span> reviews
-            </span>
-          </div>
-          <a href="{{ page.amazonLink }}" data-book="{{ page.title }}" class="buyAmazon btn btn-default"><i class="fa fa-amazon"></i> Buy for <strong>{{ page.price }}</strong></a>
         </div>
       </div>
     </div>

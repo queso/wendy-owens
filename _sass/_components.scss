@@ -440,6 +440,23 @@
  	}
  }
 
+ .buyAmazon {
+   text-align: center;
+   margin: 10px auto;
+   background: #FF9900;
+   color: black;
+   border: none;
+   border-radius: 2px;
+   padding: 13px 20px;
+   font-size: 16px;
+   letter-spacing: .03rem;
+ }
+
+ .btn-default:hover {
+   background: lighten(#FF9900, 15%);
+   color: white;
+  }
+
  .book-info p {
 		line-height: 1.7;
 		font-size: 16px;

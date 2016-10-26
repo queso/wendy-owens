@@ -12,7 +12,7 @@
   <div class="book-info">
     <!-- {{series.permalink}} -->
     <span class="title test">{{ book.title }}</span>
-    {% assign bookGroups = site.bookGroups | where: "title", book.series %}
+    {% assign bookGroups = site.bookGroups | where: "series", book.series %}
     {% for group in bookGroups %}
       <span class="series"><a href="{{site.github.url}}{{group.url}}">{{ book.series }}</a></span>
     {% endfor %}
