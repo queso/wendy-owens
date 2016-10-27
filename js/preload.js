@@ -49,9 +49,9 @@ function cycleImages() {
 }
 
 $(document).ready(function() {
-  preload('.book-covers.stubborn-love ', 'stubborn-love-books.png');
-  preload('.book-covers.sacred-guardians ', 'sacred-guardians-books.png');
-  preload('.book-covers.wash-me-away', 'wash-me-away-books.png');
+  // preload('.book-covers.stubborn-love ', 'stubborn-love-books.png');
+  // preload('.book-covers.sacred-guardians ', 'sacred-guardians-books.png');
+  // preload('.book-covers.wash-me-away', 'wash-me-away-books.png');
   preloadBG('.landing-hero', 'background.jpg');
 
   // run every ??s
