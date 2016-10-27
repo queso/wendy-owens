@@ -240,7 +240,7 @@
 
  	// everything over 992px (medium screens)
  	@media handheld, screen and (min-width: 992px) {
- 		height: 485px;
+ 		height: 700px;
 
  		img.author {
 	 		height: 100%;
@@ -249,9 +249,6 @@
 	 		margin-right: 80px;
 	 	}
 
-	 	.content { 
-	 		padding: 80px; 
-	 	}
  	}
  }
 
