@@ -38,6 +38,7 @@
       _dcq.push(['identify', {
         tags: ['clickedAmazon', 'clickedAmazon' + tagBookName, 'clicked' + tagBookName]
       }]);
+      ga('send', 'event', 'Books', 'clickedAmazon', tagBookName);
 
       window.location.href = target.attr('href');
     });
