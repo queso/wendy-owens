@@ -38,9 +38,7 @@
       _dcq.push(['identify', {
         tags: ['clickedAmazon', 'clickedAmazon' + tagBookName, 'clicked' + tagBookName]
       }]);
-      ga('send', 'event', 'Books', 'clickedAmazon', tagBookName);
-
-      window.location.href = target.attr('href');
+      ga('send', 'event', {eventCategory: 'Books', eventAction: 'clickedAmazon', eventLabel: tagBookName, ga('send', 'event', 'Books', 'clickedAmazon', tagBookName, {'transport': 'beacon', 'hitCallback': function() {window.location.href = target.attr('href');}});
     });
   });
 </script>
