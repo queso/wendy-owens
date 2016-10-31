@@ -6,7 +6,7 @@ permalink: /survey/
 
 <div class="page-content">
 
-  <div id="about-wendy" class="content-section">
+  <div id="blog-post" class="content-section">
     <div class="container">
       <div class="section-heading">
         <h3 class="heading">Tell us about your reader preferences</h3>
@@ -44,7 +44,39 @@ permalink: /survey/
                 <input type="checkbox" name="tags[]" value="readsHorror"> Horror
               </label>
               <br />
-              <button type="submit" class="btn btn-default">Add your input</button>
+              <label>What is the highest price you pay when shopping for books?</label>
+              <select name="tags[]" class="form-control" id="genre">
+                <option value="paysFree">Free</option>
+                <option value="pays1">$0.99</option>
+                <option value="pays3">$2.99</option>
+                <option value="pays4">$3.99</option>
+                <option value="pays6">$5.99</option>
+                <option value="paysHigher">Even higher</option>
+              </select>
+              <br />
+              <h4>Devices I read on</h4>
+              <label class="checkbox-inline">
+                <input type="checkbox" name="tags[]" value="hasKindle"> Kindle
+              </label>
+              <label class="checkbox-inline">
+                <input type="checkbox" name="tags[]" value="hasiPad"> iPad
+              </label>
+              <label class="checkbox-inline">
+                <input type="checkbox" name="tags[]" value="hasNook"> Nook
+              </label>
+              <label class="checkbox-inline">
+                <input type="checkbox" name="tags[]" value="hasAndroid"> Android Device
+              </label>
+              <br />
+              <div class="row">
+                <div class="col-md-3 form-group">
+                  <label for="fields[books_per_week]">How many books do you read per week?</label>
+                  <input type="number" class="form-control" name="fields[books_per_week]" placeholder="X">
+                </div>
+              </div>
+              <div class="row">
+                <button type="submit" class="btn btn-default">Add your input</button>
+              </div>
             </form>
           </div>
         </div>
