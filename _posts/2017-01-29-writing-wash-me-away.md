@@ -2,7 +2,7 @@
 layout: post
 title: Why I wrote Wash Me Away
 excerpt_separator: <!--more-->
-tags: community
+tags: community, romance, depression
 image: /img/wash-me-away-books.png
 author: WendyLOwens
 ---

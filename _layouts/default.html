@@ -26,6 +26,18 @@
         }]);
       </script>
     {%endif%}
+    {% if page.layout == "post" %}
+      <script type="text/javascript">
+        var target = $('h2.blog-title');
+        var postName = target.text();
+        var tags = "{{page.tags}}".split(",");
+        console.log(tags);
+        _dcq.push(['track', 'Viewed a post', {post: postName}])
+        _dcq.push(['identify', {
+          tags: tags
+        }]);
+      </script>
+    {%endif%}
   </body>
 
 </html>
