@@ -2,7 +2,7 @@
 layout: book
 title:  "Jack Be Nimble, Jack Be Dead"
 genre: "Cozy Mystery"
-cover-image: "jack-be-nimble.jpg"
+cover-image: "jack-be-nimble"
 series: "The Penny Preston Mysteries"
 category: "latest"
 permalink: "/books/jack-be-nimble-jack-be-dead"
