@@ -13,7 +13,7 @@ function preload(ele, imgName) {
 }
 
 function preloadBG(ele, imgName) {
-  var baseUrl = 'http://wendyowensbooks.com';
+  var baseUrl = 'https://wendyowensbooks.com';
   var c = new Image(); // create img element for preload
   var ele = ele;
 
