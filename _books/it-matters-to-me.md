@@ -3,11 +3,11 @@ layout: book
 title:  "It Matters To Me"
 genre: "Romance"
 cover-image: "it-matters-to-me"
-series: "The Wandering Hearts Series"
+series: "The Stubborn Love Series"
 category: "latest"
 permalink: "/books/it-matters-to-me"
 price: "$3.99"
-bookNumber: 2
+bookNumber: 5
 amazonLink: "https://www.amazon.com/gp/product/B01D3I7YRC/ref=as_li_tl?ie=UTF8&tag=owensmc-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B01D3I7YRC&linkId=daa332dcecbf84852e04b7d062321cd2"
 rating: 4.6
 reviewCount: 28
