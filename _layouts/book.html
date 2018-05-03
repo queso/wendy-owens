@@ -13,15 +13,19 @@ layout: default
           <span itemprop="ratingValue">{{ page.rating }}</span> stars, based on <span itemprop="reviewCount">{{ page.reviewCount }}</span> reviews
         </span>
       </div>
+
+      {% if page.buyLinks %}
+        {% for link in page.buyLinks %}
+          <div class="row">
+            <div class="col-md-12">
+              <a href="{{ link.link }}" class="buyBook buy{{name}} btn btn-default"><i class="fa fa-{{link.logo}}"></i> Buy on <strong>{{link.name}}</strong></a>
+            </div>
+          </div>
+        {% endfor %}
+      {% else %}
       <div class="row">
         <div class="col-md-12">
           <a href="{{ page.amazonLink }}" data-book="{{ page.title }}" class="buyBook buyAmazon btn btn-default"><i class="fa fa-amazon"></i> Buy on <strong>Amazon</strong></a>
-        </div>
-      </div>
-      {% if page.itunesLink %}
-      <div class="row">
-        <div class="col-md-12">
-          <a href="{{ page.itunesLink }}" class="buyBook buyItunes btn btn-default"><i class="fa fa-apple"></i> Buy on <strong>iBooks</strong></a>
         </div>
       </div>
       {% endif %}
