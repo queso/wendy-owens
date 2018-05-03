@@ -2,7 +2,7 @@
 layout: book
 title:  "Wash Me Away"
 genre: "Romance"
-cover-image: "wash-me-away.jpg"
+cover-image: "wash-me-away"
 category: "latest"
 permalink: "/books/wash-me-away"
 price: "$2.99"
