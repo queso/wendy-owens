@@ -1,6 +1,6 @@
 ---
 layout: series
-series:  "A Penny Preston Mystery"
+series:  "The Penny Preston Mysteries"
 genre: "Cozy Mystery"
 permalink: "/series/penny-preston"
 ---
