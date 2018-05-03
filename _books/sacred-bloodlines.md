@@ -8,6 +8,7 @@ permalink: "/books/sacred-bloodlines"
 bookNumber: 1
 price: "Free"
 amazonLink: "https://www.amazon.com/gp/product/B006C7KFI2/ref=as_li_tl?ie=UTF8&tag=owensmc-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B006C7KFI2&linkId=e210d199c53f3710e60948e5efd84fd2"
+itunesLink: "https://www.amazon.com/gp/product/B006C7KFI2/ref=as_li_tl?ie=UTF8&tag=owensmc-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B006C7KFI2&linkId=e210d199c53f3710e60948e5efd84fd2"
 rating: 4.2
 reviewCount: 166
 ---
