@@ -454,13 +454,23 @@
    }
  }
 
+ .buyItunes {
+  background: #cc45f2;
+  color: #131212;
+ }
+
+ .buyAmazon:hover {
+   background: lighten(#cc45f2, 5%);
+   color: #131212;
+  }
+
  .buyAmazon {
    background: #FF9900;
    color: #131212;
 
  }
 
- .btn-default:hover {
+ .buyAmazon:hover {
    background: lighten(#FF9900, 5%);
    color: #131212;
   }
