@@ -3,7 +3,7 @@ layout: book
 title:  "Only in Dreams"
 genre: "Romance"
 series:  "The Stubborn Love Series"
-cover-image: "only-in-dreams.jpg"
+cover-image: "only-in-dreams"
 permalink: "/books/only-in-dreams"
 price: "$3.99"
 bookNumber: 2

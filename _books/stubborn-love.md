@@ -3,7 +3,7 @@ layout: book
 title:  "Stubborn Love"
 genre: "Romance"
 series:  "The Stubborn Love Series"
-cover-image: "stubborn-love.jpg"
+cover-image: "stubborn-love"
 permalink: "/books/stubborn-love"
 bookNumber: 1
 price: "$3.99"

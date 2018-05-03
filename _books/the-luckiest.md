@@ -3,7 +3,7 @@ layout: book
 title:  "The Luckiest"
 genre: "Romance"
 series:  "The Stubborn Love Series"
-cover-image: "the-luckiest.jpg"
+cover-image: "the-luckiest"
 permalink: "/books/the-luckiest"
 price: "$3.99"
 bookNumber: 3
