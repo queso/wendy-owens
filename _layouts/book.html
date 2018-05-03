@@ -18,7 +18,7 @@ layout: default
         {% for link in page.buyLinks %}
           <div class="row">
             <div class="col-md-12">
-              <a href="{{ link.link }}" class="buyBook buy{{name}} btn btn-default"><i class="fa fa-{{link.logo}}"></i> Buy on <strong>{{link.name}}</strong></a>
+              <a href="{{ link.link }}" class="buyBook buy{{ link.name }} btn btn-default"><i class="fa fa-{{link.logo}}"></i> Buy on <strong>{{link.name}}</strong></a>
             </div>
           </div>
         {% endfor %}
