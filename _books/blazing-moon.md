@@ -2,7 +2,7 @@
 layout: book
 title:  "Blazing Moon"
 genre: "New Adult Fantasy"
-cover-image: "blazing-moon.jpg"
+cover-image: "blazing-moon"
 series: "The Tynder Crown Chronicles"
 category: "latest"
 permalink: "/books/blazing-moon"
