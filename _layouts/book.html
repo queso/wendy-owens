@@ -15,13 +15,13 @@ layout: default
       </div>
       <div class="row">
         <div class="col-md-12">
-          <a href="{{ page.amazonLink }}" data-book="{{ page.title }}" class="buyAmazon btn btn-default"><i class="fa fa-amazon"></i> Buy on <strong>Amazon</strong></a>
+          <a href="{{ page.amazonLink }}" data-book="{{ page.title }}" class="buyBook buyAmazon btn btn-default"><i class="fa fa-amazon"></i> Buy on <strong>Amazon</strong></a>
         </div>
       </div>
       {% if page.itunesLink %}
       <div class="row">
         <div class="col-md-12">
-          <a href="{{ page.itunesLink }}" class="buyItunes btn btn-default"><i class="fa fa-apple"></i> Buy on <strong>iBooks</strong></a>
+          <a href="{{ page.itunesLink }}" class="buyBook buyItunes btn btn-default"><i class="fa fa-apple"></i> Buy on <strong>iBooks</strong></a>
         </div>
       </div>
       {% endif %}
