@@ -2,7 +2,7 @@
 layout: book
 title:  "The Lost Years"
 genre: "Young Adult Fantasy"
-cover-image: "the-lost-years.jpg"
+cover-image: "the-lost-years"
 series: "The Sacred Guardians Series"
 permalink: "/books/the-lost-years"
 price: "$3.99"
