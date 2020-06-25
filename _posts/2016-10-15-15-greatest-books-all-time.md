@@ -1,10 +1,12 @@
 ---
 layout: post
-title: 15 of the Greatest Books!
 excerpt_separator: <!--more-->
+title: 15 of the Greatest Books!
+date: Jun 25th 20
+author: WendyLOwens
 tags: books
 image: /img/posts/15-greatest.jpg
-author: WendyLOwens
+content: "### HELLOOOO!!!!!"
 ---
 The Greatest Books of All Time...
 
