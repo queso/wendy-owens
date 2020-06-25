@@ -36,6 +36,6 @@ collections:
       - {label: "Author", name: "author", widget: "hidden", default: "WendyLOwens"}
       - {label: "Tags", name: "tags", widget: "text"}
       - {label: "Image", name: "image", widget: "image"}
-      - {label: "Content", name: "content", widget: "markdown"}
+      - {label: "Body", name: "body", widget: "markdown"}
 
      
