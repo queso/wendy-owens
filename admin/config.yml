@@ -30,9 +30,5 @@ collections:
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
-      - {label: "Excerpt Separator", name: "excerpt_separator", widget: "hidden", default: "<!--more-->"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Date", name: "date", widget: "date", format: 'MMM Do YY'}
-      - {label: "Tags", name: "tags", widget: "list"}
-      - {label: "Image", name: "image", widget: "image"}
-      - {label: "Author", name: "author", widget: "hidden", default: "WendyLOwens"}
