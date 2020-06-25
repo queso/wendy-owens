@@ -1,16 +1,23 @@
 <li class="book">
   <div class="book-img">
     <div class="shim"></div>
-    <img class="cover" src="{{ site.github.url }}/img/{{ book.cover-image }}">
-    
+    <img class="cover" src="{{ site.github.url }}/img/{{ book.cover-image }}-thumb.jpg">
+
     <!-- default hidden -->
     <div class="more-info">
       <a href="{{ site.github.url }}{{ book.permalink }}" class="more-link">More Info</a>
     </div>
   </div>
-  
+
   <div class="book-info">
-    <span class="title">{{ book.title }}</span>
-    <span class="series">{{ book.series }}</span>
+    <!-- {{series.permalink}} -->
+    <span><a href="{{ site.github.url }}{{ book.permalink }}"><span class="title test">{{book.title}}</span></a>
+    {% assign bookGroups = site.bookGroups | where: "series", book.series %}
+    {% for group in bookGroups %}
+      <span class="series"><a href="{{site.github.url}}{{group.url}}">{{ book.series }}</a></span>
+    {% endfor %}
+    {% if book.bookNumber %}
+      <span>Book {{book.bookNumber}}</span>
+    {% endif %}
   </div>
 </li>

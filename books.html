@@ -1,11 +1,13 @@
 ---
 layout: default
-title: Books by Wendy
+title: Books by Wendy Owens
 permalink: /books/
 ---
 
-{% assign booksYARomance = site.books | where: "genre", "Young Adult Romance" %}
-{% assign booksYAFantasy = site.books | where: "genre", "Young Adult Fantasy" %}
+{% assign booksRomance = site.books | where: "genre", "Romance" | sort: 'bookNumber' | sort: 'series' %}
+{% assign booksYAFantasy = site.books | where: "genre", "Young Adult Fantasy" | sort: 'bookNumber' | sort: 'series' %}
+{% assign booksNAFantasy = site.books | where: "genre", "New Adult Fantasy" | sort: 'bookNumber' | sort: 'series' %}
+{% assign booksCozy = site.books | where: "genre", "Cozy Mystery" | sort: 'bookNumber' | sort: 'series' %}
 
 <div class="page-content">
 
@@ -15,12 +17,38 @@ permalink: /books/
   </div>
 
   <div class="content-section">
-    {% if booksYARomance != empty %}
+    {% if booksRomance != empty %}
       <div class="section-heading">
-        <h3 class="heading">Young Adult Romance</h3>
+        <h3 class="heading">Romance</h3>
       </div>
       <ul class="books-list">
-        {% for book in booksYARomance %}
+        {% for book in booksRomance %}
+          {% include book-item.html %}
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </div>
+
+  <div class="content-section">
+    {% if booksNAFantasy != empty %}
+      <div class="section-heading">
+        <h3 class="heading">New Adult Fantasy</h3>
+      </div>
+      <ul class="books-list">
+        {% for book in booksNAFantasy %}
+          {% include book-item.html %}
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </div>
+
+  <div class="content-section">
+    {% if booksYAFantasy != empty %}
+      <div class="section-heading">
+        <h3 class="heading">Young Adult Fantasy</h3>
+      </div>
+      <ul class="books-list">
+        {% for book in booksYAFantasy %}
           {% include book-item.html %}
         {% endfor %}
       </ul>
@@ -28,12 +56,12 @@ permalink: /books/
   </div>
 
   <div class="content-section ext-bottom">
-    {% if booksYAFantasy != empty %}
+    {% if booksCozy != empty %}
       <div class="section-heading">
-        <h3 class="heading">Young Adult Fantasy</h3>
+        <h3 class="heading">Cozy Mysteries</h3>
       </div>
       <ul class="books-list">
-        {% for book in booksYAFantasy %}
+        {% for book in booksCozy %}
           {% include book-item.html %}
         {% endfor %}
       </ul>
