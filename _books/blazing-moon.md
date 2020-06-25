@@ -2,7 +2,7 @@
 layout: book
 title: Blazing Moonie Pie
 genre: New Adult Fantasy
-cover-image: blazing-moon
+cover-image: /images/uploads/3d-stubborn-love.jpg
 series: The Tynder Crown Chronicles
 category: latest
 permalink: /books/blazing-moon
