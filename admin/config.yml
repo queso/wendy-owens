@@ -33,3 +33,7 @@ collections:
       - {label: "Excerpt Separator", name: "excerpt_separator", widget: "hidden", default: "<!--more-->"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Date", name: "date", widget: "date", format: 'MMM Do YY'}
+      - {label: "Author", name: "author", widget: "hidden", default: "WendyLOwens"}
+      # - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Image", name: "image", widget: "image"}
+     
