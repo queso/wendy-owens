@@ -1,22 +1,67 @@
 ---
 layout: default
 ---
+{% assign bookGroups = site.bookGroups | where: "series", page.series %}
+{% assign books = site.books | where: "series", page.series | where_exp: "book", "book.title != page.title" | sort: 'bookNumber' %}
 
-  <div class="container single-book">
-  	<div class="row">
-  		<div class="col-sm-4 col-md-4">
-  			<img class="cover" src="{{ site.github.url }}/img/{{ page.cover-image }}">
-  		</div>	
-  		<div class="col-sm-8 col-md-8">
-  			<div class="book-info">
-  				<h4 class="book-title">{{ page.title }}</h4>
-  				<span class="meta series">{{ page.series }}</span>
-  				<span class="meta">{{ page.genre }}</span>
-  				
-  				{{ content }}
+<div itemscope itemtype="http://schema.org/Product" class="container single-book">
+  <div class="row">
+    <div class="col-sm-4 col-md-4">
+      <img itemprop="image" class="cover" src="{{ site.github.url }}/img/{{ page.cover-image }}.jpg">
+      <div style="text-align: center;padding-top: 10px;">
+        <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+          <span itemprop="ratingValue">{{ page.rating }}</span> stars, based on <span itemprop="reviewCount">{{ page.reviewCount }}</span> reviews
+        </span>
+      </div>
 
-  				<a href="{{ page.buylink }}" class="btn btn-default"><i class="fa fa-amazon"></i> Buy for <strong>{{ page.price }}</strong></a>
-  			</div>
-  		</div>	
-  	</div>
+      {% if page.buyLinks %}
+        {% for link in page.buyLinks %}
+          <div class="row">
+            <div class="col-md-12">
+              <a href="{{ link.link }}" class="buyBook buy{{ link.name }} btn btn-default"><i class="fa fa-{{link.logo}}"></i> Buy on <strong>{{link.name}}</strong></a>
+            </div>
+          </div>
+        {% endfor %}
+      {% else %}
+      <div class="row">
+        <div class="col-md-12">
+          <a href="{{ page.amazonLink }}" data-book="{{ page.title }}" class="buyBook buyAmazon btn btn-default"><i class="fa fa-amazon"></i> Buy on <strong>Amazon</strong></a>
+        </div>
+      </div>
+      {% endif %}
+    </div>
+    <div class="col-sm-8 col-md-8">
+      <div class="book-details">
+        <h4 itemprop="name" class="book-title">{{ page.title }}</h4>
+        {% for group in bookGroups %}
+        <span class="meta series"><a href="{{group.url}}">{{ group.series }}</a></span>
+        {% endfor %}
+        <span class="meta">{{ page.genre }}</span>
+
+        {{ content }}
+
+        {% if page.links %}
+        <div>
+          <h5>Other places</h5>
+          <link itemprop="url" href="{{ site.github.url }}{{ page.permalink }}">
+          {% for link in page.links %}
+            <a itemprop="sameAs" href="{{link.url}}" class="btn btn-default" >{{link.name}}</a>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+    </div>
   </div>
+  <div class="content-section ext-bottom">
+    {% if books != empty %}
+      <div class="section-heading">
+        <h3 class="heading">Others in {{ page.series }}</h3>
+      </div>
+      <ul class="books-list">
+        {% for book in books %}
+          {% include book-item.html %}
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </div>
+</div>

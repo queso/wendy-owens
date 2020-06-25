@@ -1,9 +1,8 @@
 function preload(ele, imgName) {
-  // todo: change baseUrl
-  var baseUrl = 'http://amandasaffer.github.io/wendy-owens';
+  var baseUrl = 'https://wendyowensbooks.com';
   var c = new Image(); // create img element for preload
   var ele = ele;
-  
+
   // when the image element is loaded, set the background image
   c.onload = function(){
     $(ele).attr("src", baseUrl + '/img/' + imgName);
@@ -14,11 +13,10 @@ function preload(ele, imgName) {
 }
 
 function preloadBG(ele, imgName) {
-  // todo: change baseUrl
-  var baseUrl = 'http://amandasaffer.github.io/wendy-owens';
+  var baseUrl = 'https://wendyowensbooks.com';
   var c = new Image(); // create img element for preload
   var ele = ele;
-  
+
   // when the image element is loaded, set the background image
   c.onload = function(){
     $(ele).css('background-image','url(' + baseUrl + '/img/' + imgName + ')');
@@ -47,13 +45,13 @@ function cycleImages() {
   $active.removeClass('active');
   $next.addClass('active');
   $lit.removeClass('lit');
-  $nextlit.addClass('lit'); 
+  $nextlit.addClass('lit');
 }
 
 $(document).ready(function() {
-  preload('.book-covers.stubborn-love ', 'stubborn-love-books.png');
-  preload('.book-covers.sacred-guardians ', 'sacred-guardians-books.png');
-  preload('.book-covers.wash-me-away', 'wash-me-away-books.png');
+  // preload('.book-covers.stubborn-love ', 'stubborn-love-books.png');
+  // preload('.book-covers.sacred-guardians ', 'sacred-guardians-books.png');
+  // preload('.book-covers.wash-me-away', 'wash-me-away-books.png');
   preloadBG('.landing-hero', 'background.jpg');
 
   // run every ??s
