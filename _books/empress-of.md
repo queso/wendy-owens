@@ -3,8 +3,8 @@ layout: book
 title: Empress Of
 genre: romance
 cover-image: /img/do-anything-thumb.jpg
-series: " sdf"
-category: " sdf"
+series: ""
+category: ""
 permalink: /books/empress-of
 price: $0.99
 bookNumber: 1
