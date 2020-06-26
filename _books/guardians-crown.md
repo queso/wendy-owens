@@ -2,7 +2,7 @@
 layout: book
 title:  "The Guardians Crown"
 genre: "Young Adult Fantasy"
-cover-image: "the-guardians-crown"
+cover-image: "/img/the-guardians-crown.jpg"
 series: "The Sacred Guardians Series"
 category: "latest"
 permalink: "/books/the-guardians-crown"

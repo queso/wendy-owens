@@ -2,7 +2,7 @@
 layout: book
 title:  "It Matters To Me"
 genre: "Romance"
-cover-image: "it-matters-to-me"
+cover-image: "/img/it-matters-to-me.jpg"
 series: "The Stubborn Love Series"
 category: "latest"
 permalink: "/books/it-matters-to-me"

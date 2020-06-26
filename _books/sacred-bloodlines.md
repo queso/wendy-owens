@@ -2,7 +2,7 @@
 layout: book
 title:  "Sacred Bloodlines"
 genre: "Young Adult Fantasy"
-cover-image: "sacred-bloodlines"
+cover-image: "/img/sacred-bloodlines.jpg"
 series: "The Sacred Guardians Series"
 permalink: "/books/sacred-bloodlines"
 bookNumber: 1

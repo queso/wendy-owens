@@ -2,7 +2,7 @@
 layout: book
 title:  "The Shield Prophecy"
 genre: "Young Adult Fantasy"
-cover-image: "shield-prophecy"
+cover-image: "/img/shield-prophecy.jpg"
 series: "The Sacred Guardians Series"
 permalink: "/books/the-shield-prophecy"
 price: "$3.99"

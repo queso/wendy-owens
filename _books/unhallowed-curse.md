@@ -2,7 +2,7 @@
 layout: book
 title:  "Unhallowed Curse"
 genre: "Young Adult Fantasy"
-cover-image: "unhallowed-curse"
+cover-image: "/img/unhallowed-curse.jpg"
 series: "The Sacred Guardians Series"
 permalink: "/books/unhallowed-curse"
 price: "$2.99"
