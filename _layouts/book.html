@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 {% assign bookGroups = site.bookGroups | where: "series", page.series %}
 {% assign books = site.books | where: "series", page.series | where_exp: "book", "book.title != page.title" | sort: 'bookNumber' %}
 
@@ -10,22 +11,25 @@ layout: default
       <img itemprop="image" class="cover" src="{{ page.cover-image }}">
       <div style="text-align: center;padding-top: 10px;">
         <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
-          <span itemprop="ratingValue">{{ page.rating }}</span> stars, based on <span itemprop="reviewCount">{{ page.reviewCount }}</span> reviews
+          <span itemprop="ratingValue">{{ page.rating }}</span> stars, based on <span
+            itemprop="reviewCount">{{ page.reviewCount }}</span> reviews
         </span>
       </div>
 
       {% if page.buyLinks %}
-        {% for link in page.buyLinks %}
-          <div class="row">
-            <div class="col-md-12">
-              <a href="{{ link.link }}" class="buyBook buy{{ link.name }} btn btn-default"><i class="fa fa-{{link.logo}}"></i> Buy on <strong>{{link.name}}</strong></a>
-            </div>
-          </div>
-        {% endfor %}
+      {% for link in page.buyLinks %}
+      <div class="row">
+        <div class="col-md-12">
+          <a href="{{ link.link }}" class="buyBook buy{{ link.name }} btn btn-default"><i
+              class="fa fa-{{link.logo}}"></i> Buy on <strong>{{link.name}}</strong></a>
+        </div>
+      </div>
+      {% endfor %}
       {% else %}
       <div class="row">
         <div class="col-md-12">
-          <a href="{{ page.amazonLink }}" data-book="{{ page.title }}" class="buyBook buyAmazon btn btn-default"><i class="fa fa-amazon"></i> Buy on <strong>Amazon</strong></a>
+          <a href="{{ page.amazonLink }}" data-book="{{ page.title }}" class="buyBook buyAmazon btn btn-default"><i
+              class="fa fa-amazon"></i> Buy on <strong>Amazon</strong></a>
         </div>
       </div>
       {% endif %}
@@ -45,7 +49,7 @@ layout: default
           <h5>Other places</h5>
           <link itemprop="url" href="{{ site.github.url }}{{ page.permalink }}">
           {% for link in page.links %}
-            <a itemprop="sameAs" href="{{link.url}}" class="btn btn-default" >{{link.name}}</a>
+          <a itemprop="sameAs" href="{{link.url}}" class="btn btn-default">{{link.name}}</a>
           {% endfor %}
         </div>
         {% endif %}
@@ -54,14 +58,14 @@ layout: default
   </div>
   <div class="content-section ext-bottom">
     {% if books != empty %}
-      <div class="section-heading">
-        <h3 class="heading">Others in {{ page.series }}</h3>
-      </div>
-      <ul class="books-list">
-        {% for book in books %}
-          {% include book-item.html %}
-        {% endfor %}
-      </ul>
+    <div class="section-heading">
+      <h3 class="heading">Others in {{ page.series }}</h3>
+    </div>
+    <ul class="books-list">
+      {% for book in books %}
+      {% include book-item.html %}
+      {% endfor %}
+    </ul>
     {% endif %}
   </div>
 </div>

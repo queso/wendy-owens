@@ -1,15 +1,12 @@
 ---
-layout: book
-title: Empress Of
-genre: romance
-cover-image: /img/do-anything-thumb.jpg
-series: " sdf"
-category: " sdf"
-permalink: /books/empress-of
-price: $0.99
-bookNumber: 1
-amazonLink: amazon.com
-rating: 10
-reviewCount: 12384687124
+layout: "book"
+title: "Empress Of"
+genre: "Romance"
+cover-image: "/img/do-anything-thumb.jpg"
+permalink: "/books/empress-of"
+price: "$0.99"
+amazonLink: "amazon.com"
+rating: 4.6
+reviewCount: 39 
 ---
 AN AMAZING BOOK! YES YES!

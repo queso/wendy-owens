@@ -24,7 +24,7 @@ author:
   twitter: WendyLOwens
   img: /img/wendy.jpg
 
-gems:
+plugins:
   - jemoji
   - jekyll-mentions
   - jekyll-seo-tag

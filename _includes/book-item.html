@@ -12,12 +12,12 @@
   <div class="book-info">
     <!-- {{series.permalink}} -->
     <span><a href="{{ site.github.url }}{{ book.permalink }}"><span class="title test">{{book.title}}</span></a>
-    {% assign bookGroups = site.bookGroups | where: "series", book.series %}
-    {% for group in bookGroups %}
+      {% assign bookGroups = site.bookGroups | where: "series", book.series %}
+      {% for group in bookGroups %}
       <span class="series"><a href="{{site.github.url}}{{group.url}}">{{ book.series }}</a></span>
-    {% endfor %}
-    {% if book.bookNumber %}
+      {% endfor %}
+      {% if book.bookNumber %}
       <span>Book {{book.bookNumber}}</span>
-    {% endif %}
+      {% endif %}
   </div>
 </li>
