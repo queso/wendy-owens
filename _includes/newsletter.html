@@ -9,24 +9,24 @@
 		</div>
 
 		<!-- NEWSLETTER FORM -->
-		<form class="form-horizontal">
+		<form class="form-horizontal" action="https://www.getdrip.com/forms/1513607/submissions" method="post" data-drip-embedded-form="1513607" name="mc-embedded-subscribe-form" class="validate">
 			<div class="form-group">
 				<div class="col-md-3 input">
-					<label for="name">First Name</label>
-					<input type="text" id="name" placeholder="Name">
+					<label for="fields[first_name]">First Name</label>
+					<input type="text" id="firstNameInput" name="fields[first_name]" required placeholder="Name">
 				</div>
 
 				<div class="col-md-4 input">
-					<label for="email">Email</label>
-					<input type="email" id="email" placeholder="Email Address">
+          <label for="fields[email]">Email</label>
+					<input type="email" id="newsletterEmailInput" required placeholder="Email Address" name="fields[email]">
 				</div>
 
 				<div class="col-md-3">
-					<label for="genre">I like to read...</label>
-				  <select class="form-control" id="genre">
-				    <option>New Adult Books</option>
-				    <option>Fantasy Books</option>
-				    <option>Both</option>
+					<label for="tags[]">Send me a free...</label>
+				  <select name="tags[]" class="form-control" id="genre">
+				    <option value="romance">Romance Book</option>
+				    <option value="yaparanormal">Young Adult Fantasy Book</option>
+				    <option value="naparanormal">New Adult Fantasy Book</option>
 				  </select>
 				</div>
 

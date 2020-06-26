@@ -1,19 +1,43 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
+<body>
 
-    {% include header.html %}
+  {% include header.html %}
 
-    <div class="page-content">
-      {{ content }}
-    </div>
+  <div class="page-content">
+    {{ content }}
+  </div>
 
-    {% include newsletter.html %}
-    {% include footer.html %}
-    {% include scripts.html %}
-  </body>
+  {% include newsletter.html %}
+  {% include footer.html %}
+  {% include scripts.html %}
+  {% if page.layout == "book" %}
+  <script type="text/javascript">
+    var target = $('a.buyAmazon');
+    var bookName = target.data('book');
+    console.log(target);
+    var tagBookName = bookName.replace(/\s/g, "");
+    _dcq.push(['track', 'Viewed a book', { book: bookName }])
+    _dcq.push(['identify', {
+      tags: ['visitedABook', 'visited' + tagBookName]
+    }]);
+  </script>
+  {%endif%}
+  {% if page.layout == "post" %}
+  <script type="text/javascript">
+    var target = $('h2.blog-title');
+    var postName = target.text();
+    var tags = "{{page.tags}}".split(",");
+    console.log(tags);
+    _dcq.push(['track', 'Viewed a post', { post: postName }])
+    _dcq.push(['identify', {
+      tags: tags
+    }]);
+  </script>
+  {%endif%}
+</body>
 
 </html>
