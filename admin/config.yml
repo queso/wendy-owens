@@ -16,7 +16,7 @@ collections:
       - {label: "Cover Image", name: "cover-image", widget: "image"}
       - {label: "Series", name: "series", widget: "string", required: false}
       - {label: "Category", name: "category", widget: "string"}
-      - {label: "Permalink", name: "permalink", widget: "string"}
+      - {label: "Permalink", name: "permalink", widget: "string", default: {/books/{title}}}
       - {label: "Price", name: "price", widget: "string"}
       - {label: "Book Number", name: "bookNumber", widget: "number", required: false}
       - {label: "Amazon Link", name: "amazonLink", widget: "string"}
