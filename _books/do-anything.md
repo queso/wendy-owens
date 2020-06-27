@@ -19,6 +19,9 @@ buyLinks:
   - name: Barnes and Noble
     link: https://www.barnesandnoble.com/w/do-anything-wendy-owens/1118943133?ean=2940164378592
     logo: bookmark
+  - name: Kobo
+    link: https://www.kobo.com/us/en/ebook/do-anything-4
+    logo: book
 rating: 4.4
 reviewCount: 89
 ---
