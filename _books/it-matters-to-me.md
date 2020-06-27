@@ -15,12 +15,12 @@ buyLinks:
     link: https://books.apple.com/us/book/it-matters-to-me/id1519105144
   - name: Amazon
     link: https://www.amazon.com/Matters-Me-Stubborn-Love-Story-ebook/dp/B01D3I7YRC/ref=sr_1_1?dchild=1&keywords=it+matters+to+me&qid=1593288840&s=digital-text&sr=1-1
-    logo: Amazon
+    logo: amazon
   - name: Barnes & Noble
     logo: bookmark
     link: https://www.barnesandnoble.com/w/it-matters-to-me-wendy-owens/1123556662?ean=2940164338541
   - name: Kobo
-    logo: Book
+    logo: book
     link: https://www.kobo.com/us/en/ebook/it-matters-to-me-3
 rating: 4.6
 reviewCount: 28
