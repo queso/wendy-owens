@@ -1,14 +1,20 @@
 ---
 layout: book
-title:  "Jack Be Nimble, Jack Be Dead"
-genre: "Cozy Mystery"
-cover-image: "/img/jack-be-nimble.jpg"
-series: "The Penny Preston Mysteries"
-category: "latest"
-permalink: "/books/jack-be-nimble-jack-be-dead"
-price: "$0.99"
+title: Jack Be Nimble, Jack Be Dead
+genre: Cozy Mystery
+cover-image: /img/jack-be-nimble.jpg
+series: The Penny Preston Mysteries
+category: latest
+permalink: /books/jack-be-nimble-jack-be-dead
+price: $2.99
 bookNumber: 1
-amazonLink: "https://www.amazon.com/gp/product/B06WVMGNKW/ref=as_li_tl?ie=UTF8&tag=owensmc-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B06WVMGNKW&linkId=cb1714d592011aa47500e3288edd2fbf"
+amazonLink: ""
+buyLinks:
+  - name: Amazon
+    logo: amazon
+    link: https://www.amazon.com/gp/product/B06WVMGNKW?notRedirectToSDP=1&ref_=dbs_mng_calw_0&storeType=ebooks
+rating: 4
+reviewCount: 37
 ---
 Wyoming Ohio is the place you move when you are ready for the quiet life—at least that’s what Penny Preston thought.
 
