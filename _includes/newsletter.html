@@ -9,16 +9,18 @@
 		</div>
 
 		<!-- NEWSLETTER FORM -->
-		<form class="form-horizontal" action="https://www.getdrip.com/forms/1513607/submissions" method="post" data-drip-embedded-form="1513607" name="mc-embedded-subscribe-form" class="validate">
+    <form class="form-horizontal ff__form" action="https://form.flodesk.com/submit" method="post" data-form="fdv2">
+      <input type="text" name="name" value="" style="display: none" />
+      <input type="hidden" name="submitToken" value="2aaa33fb415b1cf8d92a59b3616a18cce73373fb1babae72646265c357b09add793f48e9c07c86737c135fc4760297da3156e97a0eb6243c54bd1d71f4d697784eb778298b1acdca7122bcd975cc41d84b126ddcaa66744c7da32f7216a8c9f8" />
 			<div class="form-group">
 				<div class="col-md-3 input">
 					<label for="fields[first_name]">First Name</label>
-					<input type="text" id="firstNameInput" name="fields[first_name]" required placeholder="Name">
+					<input type="text" id="firstNameInput" name="firstName" required placeholder="Name">
 				</div>
 
 				<div class="col-md-4 input">
           <label for="fields[email]">Email</label>
-					<input type="email" id="newsletterEmailInput" required placeholder="Email Address" name="fields[email]">
+					<input type="email" id="newsletterEmailInput" required placeholder="Email Address" name="email">
 				</div>
 
 				<div class="col-md-3">
@@ -34,9 +36,15 @@
 					<label class="submission">Submit Form</label>
 					<button type="submit" class="btn btn-default btn-submit">Subscribe</button>
 				</div>
+        <div class="fd-success ff__success" data-form-el="success">
+          <p>Thank you for subscribing!</p>
+        </div>
+        <div class="fd-error ff__error" data-form-el="error"></div>
 			</div>
 		</form>
 
 		<!-- END -->
 	</div>
 </div>
+<img height="1" width="1" style="display:none" src="https://t.flodesk.com/utm.gif?r=5ef7938bd832e40026fdc5d3" />
+<script src="https://assets.flodesk.com/form.js?v=1593283515888"></script>
