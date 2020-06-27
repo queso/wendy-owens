@@ -464,17 +464,17 @@
    color: #131212;
   }
 
- .buyApple {
+ .buyApple, .buyApple:visited {
    background: #000;
    color: #fff;
  }
 
- .buyKobo {
+ .buyKobo, .buyKobo:visited {
    background: #bf0000;
    color: #fff;
  }
 
- .buyBarnes {
+ .buyBarnes, .buyBarnes:visited {
    background: #28847F;
    color: #fff;
  }
