@@ -10,16 +10,16 @@ bookNumber: 2
 amazonLink: ""
 buyLinks:
   - name: Apple Books
-    logo: Apple
+    logo: apple
     link: https://books.apple.com/us/book/only-in-dreams/id1520321740
   - name: Amazon
-    logo: Amazon
+    logo: amazon
     link: https://www.amazon.com/Only-Dreams-Stubborn-Love-Story-ebook/dp/B00H6DAPH2/ref=sr_1_4?dchild=1&keywords=only+in+dreams&qid=1593289963&s=digital-text&sr=1-4
   - link: https://www.barnesandnoble.com/w/only-in-dreams-wendy-owens/1117649757?ean=2940163913398
     name: Barnes and Noble
-    logo: Bookmark
+    logo: bookmark
   - name: Kobo
-    logo: Books
+    logo: books
     link: https://www.kobo.com/us/en/ebook/only-in-dreams-7
 rating: 4.6
 reviewCount: 233
