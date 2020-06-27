@@ -1,13 +1,26 @@
 ---
 layout: book
-title:  "Wash Me Away"
-genre: "Romance"
-cover-image: "/img/wash-me-away.jpg"
-category: "latest"
-series: "Wash Me Away"
-permalink: "/books/wash-me-away"
-price: "$2.99"
-amazonLink: "https://www.amazon.com/gp/product/B00WNWGH0A/ref=as_li_tl?ie=UTF8&tag=owensmc-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B00WNWGH0A&linkId=04ff7c85afe1da5891b83575dbb89a27"
+title: Wash Me Away
+genre: Romance
+cover-image: /img/wash-me-away.jpg
+series: Wash Me Away
+category: latest
+permalink: /books/wash-me-away
+price: $3.99
+amazonLink: https://www.amazon.com/gp/product/B00WNWGH0A/ref=as_li_tl?ie=UTF8&tag=owensmc-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B00WNWGH0A&linkId=04ff7c85afe1da5891b83575dbb89a27
+buyLinks:
+  - name: Apple Books
+    link: https://books.apple.com/us/book/wash-me-away/id1520323468
+    logo: apple
+  - name: Amazon
+    link: https://www.amazon.com/Wash-Me-Away-Wendy-Owens-ebook/dp/B00WNWGH0A/ref=sr_1_1?dchild=1&keywords=wash+me+away&qid=1593293546&s=digital-text&sr=1-1
+    logo: amazon
+  - link: https://www.barnesandnoble.com/w/wash-me-away-wendy-owens/1121502681?ean=2940163943975
+    name: Barnes & Noble
+    logo: bookmark
+  - name: Kobo
+    link: https://www.kobo.com/us/en/ebook/wash-me-away-2
+    logo: book
 rating: 4.6
 reviewCount: 39
 ---
