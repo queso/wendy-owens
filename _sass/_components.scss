@@ -466,18 +466,26 @@
 
  .buyApple {
    background: #000;
-   color: #333;
+   color: #fff;
+ }
 
+ .buyKobo {
+   background: #bf0000;
+   color: #fff;
+ }
+
+ .buyBarnes {
+   background: #28847F;
+   color: #fff;
  }
 
  .buyAmazon {
    background: #FF9900;
    color: #131212;
-
  }
 
  .buyAmazon:hover {
-   background: lighten(#FF9900, 5%);
+   background: lighten(#FF9900, 25%);
    color: #131212;
   }
 
