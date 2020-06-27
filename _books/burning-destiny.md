@@ -1,14 +1,18 @@
 ---
 layout: book
-title:  "Burning Destiny"
-genre: "New Adult Fantasy"
-cover-image: "/img/burning-destiny.jpg"
-series: "The Tynder Crown Chronicles"
-category: "latest"
-permalink: "/books/burning-destiny"
-price: "$2.99"
+title: Burning Destiny
+genre: New Adult Fantasy
+cover-image: /img/burning-destiny.jpg
+series: The Tynder Crown Chronicles
+category: latest
+permalink: /books/burning-destiny
+price: $2.99
 bookNumber: 1
-amazonLink: "https://www.amazon.com/gp/product/B01KSFP1AA/ref=as_li_tl?ie=UTF8&tag=owensmc-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B01KSFP1AA&linkId=14467cc45a4fc0cbd04ed9ca8c638be0"
+amazonLink: ""
+buyLinks:
+  - link: https://www.amazon.com/Burning-Destiny-Paranormal-Mystery-Chronicles-ebook/dp/B01KSFP1AA/ref=sr_1_1?dchild=1&keywords=burning+destiny&qid=1593299037&s=digital-text&sr=1-1
+    name: Amazon
+    logo: amazon
 rating: 5
 reviewCount: 2
 ---
