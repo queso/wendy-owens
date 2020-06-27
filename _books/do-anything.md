@@ -16,7 +16,7 @@ buyLinks:
   - name: Amazon
     link: https://www.amazon.com/gp/product/B00JEN5Y0U/ref=as_li_tl?ie=UTF8&tag=owensmc-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B00JEN5Y0U&linkId=31016d7567ff795b7031fe2b8cabbb99
     logo: amazon
-  - name: Barnes and Noble
+  - name: Barnes & Noble
     link: https://www.barnesandnoble.com/w/do-anything-wendy-owens/1118943133?ean=2940164378592
     logo: bookmark
   - name: Kobo
