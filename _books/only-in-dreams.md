@@ -1,13 +1,26 @@
 ---
 layout: book
-title:  "Only in Dreams"
-genre: "Romance"
-series:  "The Stubborn Love Series"
-cover-image: "/img/only-in-dreams.jpg"
-permalink: "/books/only-in-dreams"
-price: "$3.99"
+title: Only in Dreams
+genre: Romance
+cover-image: /img/only-in-dreams.jpg
+series: The Stubborn Love Series
+permalink: /books/only-in-dreams
+price: $3.99
 bookNumber: 2
-amazonLink: "https://www.amazon.com/gp/product/B00H6DAPH2/ref=as_li_tl?ie=UTF8&tag=owensmc-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B00H6DAPH2&linkId=0cf4c3698a386b07e0c5a44b229f9f35"
+amazonLink: ""
+buyLinks:
+  - name: Apple Books
+    logo: Apple
+    link: https://books.apple.com/us/book/only-in-dreams/id1520321740
+  - name: Amazon
+    logo: Amazon
+    link: https://www.amazon.com/Only-Dreams-Stubborn-Love-Story-ebook/dp/B00H6DAPH2/ref=sr_1_4?dchild=1&keywords=only+in+dreams&qid=1593289963&s=digital-text&sr=1-4
+  - link: https://www.barnesandnoble.com/w/only-in-dreams-wendy-owens/1117649757?ean=2940163913398
+    name: Barnes and Noble
+    logo: Bookmark
+  - name: Kobo
+    logo: Books
+    link: https://www.kobo.com/us/en/ebook/only-in-dreams-7
 rating: 4.6
 reviewCount: 233
 ---
