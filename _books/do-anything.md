@@ -2,7 +2,7 @@
 layout: book
 title: Do Anything
 genre: Romance
-cover-image: /img/do-anything.jpg
+cover-image: /img/48a92c25-702d-4848-b367-5db72ac88e68.jpeg
 series: The Wandering Hearts Series
 category: Romance
 permalink: /books/do-anything
