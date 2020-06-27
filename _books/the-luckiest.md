@@ -1,13 +1,26 @@
 ---
 layout: book
-title:  "The Luckiest"
-genre: "Romance"
-series:  "The Stubborn Love Series"
-cover-image: "/img/the-luckiest.jpg"
-permalink: "/books/the-luckiest"
-price: "$3.99"
+title: The Luckiest
+genre: Romance
+cover-image: /img/the-luckiest.jpg
+series: The Stubborn Love Series
+permalink: /books/the-luckiest
+price: $3.99
 bookNumber: 3
-amazonLink: "https://www.amazon.com/gp/product/B00LNCDC72/ref=as_li_tl?ie=UTF8&tag=owensmc-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B00LNCDC72&linkId=f8cb76ca697628465390e21ceccac7d4"
+amazonLink: ""
+buyLinks:
+  - name: Apple Books
+    link: https://books.apple.com/us/book/the-luckiest/id1518905550
+    logo: apple
+  - name: Amazon
+    logo: Amazon
+    link: https://www.amazon.com/gp/product/B00LNCDC72?notRedirectToSDP=1&ref_=dbs_mng_calw_2&storeType=ebooks
+  - name: Barnes & Noble
+    link: https://www.barnesandnoble.com/w/the-luckiest-wendy-owens/1119611767?ean=2940163929283
+    logo: bookmark
+  - link: https://www.kobo.com/us/en/ebook/the-luckiest-10
+    name: Kobo
+    logo: Book
 rating: 4.6
 reviewCount: 48
 ---
