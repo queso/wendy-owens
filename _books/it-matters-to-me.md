@@ -8,7 +8,20 @@ category: latest
 permalink: /books/it-matters-to-me
 price: $3.99
 bookNumber: 2
-amazonLink: https://www.amazon.com/gp/product/B01D3I7YRC/ref=as_li_tl?ie=UTF8&tag=owensmc-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B01D3I7YRC&linkId=daa332dcecbf84852e04b7d062321cd2
+amazonLink: ""
+buyLinks:
+  - logo: apple
+    name: Apple Books
+    link: https://books.apple.com/us/book/it-matters-to-me/id1519105144
+  - name: Amazon
+    link: https://www.amazon.com/Matters-Me-Stubborn-Love-Story-ebook/dp/B01D3I7YRC/ref=sr_1_1?dchild=1&keywords=it+matters+to+me&qid=1593288840&s=digital-text&sr=1-1
+    logo: Amazon
+  - name: Barnes & Noble
+    logo: bookmark
+    link: https://www.barnesandnoble.com/w/it-matters-to-me-wendy-owens/1123556662?ean=2940164338541
+  - name: Kobo
+    logo: Book
+    link: https://www.kobo.com/us/en/ebook/it-matters-to-me-3
 rating: 4.6
 reviewCount: 28
 ---
