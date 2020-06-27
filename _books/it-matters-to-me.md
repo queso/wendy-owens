@@ -2,7 +2,7 @@
 layout: book
 title: It Matters To Me
 genre: Romance
-cover-image: /img/it-matters-to-me.jpg
+cover-image: /img/it-matters-to-me-nook.jpg
 series: The Wandering Hearts Series
 category: latest
 permalink: /books/it-matters-to-me
