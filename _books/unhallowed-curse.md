@@ -1,13 +1,17 @@
 ---
 layout: book
-title:  "Unhallowed Curse"
-genre: "Young Adult Fantasy"
-cover-image: "/img/unhallowed-curse.jpg"
-series: "The Sacred Guardians Series"
-permalink: "/books/unhallowed-curse"
-price: "$2.99"
+title: Unhallowed Curse
+genre: Young Adult Fantasy
+cover-image: /img/unhallowed-curse.jpg
+series: The Sacred Guardians Series
+permalink: /books/unhallowed-curse
+price: $2.99
 bookNumber: 2
-amazonLink: "https://www.amazon.com/gp/product/B007PX46LE/ref=as_li_tl?ie=UTF8&tag=owensmc-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B007PX46LE&linkId=bc0a35a0f357eba0fc59e732b73c8c95"
+amazonLink: ""
+buyLinks:
+  - name: Amazon
+    link: https://www.amazon.com/gp/product/B007PX46LE?notRedirectToSDP=1&ref_=dbs_mng_calw_1&storeType=ebooks
+    logo: amazon
 rating: 4.4
 reviewCount: 33
 ---
