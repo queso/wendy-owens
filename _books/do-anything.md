@@ -1,13 +1,14 @@
 ---
 layout: book
-title:  "Do Anything"
-genre: "Romance"
-series: "The Stubborn Love Series"
-permalink: "/books/do-anything"
-cover-image: "/img/do-anything.jpg"
-price: "$3.99"
+title: Do Anything
+genre: Romance
+cover-image: /img/do-anything.jpg
+series: The Wandering Hearts Series
+category: Romance
+permalink: /books/do-anything
+price: $3.99
 bookNumber: 4
-amazonLink: "https://www.amazon.com/gp/product/B00JEN5Y0U/ref=as_li_tl?ie=UTF8&tag=owensmc-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B00JEN5Y0U&linkId=31016d7567ff795b7031fe2b8cabbb99"
+amazonLink: https://www.amazon.com/gp/product/B00JEN5Y0U/ref=as_li_tl?ie=UTF8&tag=owensmc-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B00JEN5Y0U&linkId=31016d7567ff795b7031fe2b8cabbb99
 rating: 4.4
 reviewCount: 89
 ---
