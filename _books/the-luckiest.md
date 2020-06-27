@@ -13,14 +13,14 @@ buyLinks:
     link: https://books.apple.com/us/book/the-luckiest/id1518905550
     logo: apple
   - name: Amazon
-    logo: Amazon
+    logo: amazon
     link: https://www.amazon.com/gp/product/B00LNCDC72?notRedirectToSDP=1&ref_=dbs_mng_calw_2&storeType=ebooks
   - name: Barnes & Noble
     link: https://www.barnesandnoble.com/w/the-luckiest-wendy-owens/1119611767?ean=2940163929283
     logo: bookmark
   - link: https://www.kobo.com/us/en/ebook/the-luckiest-10
     name: Kobo
-    logo: Book
+    logo: book
 rating: 4.6
 reviewCount: 48
 ---
