@@ -6,9 +6,13 @@ cover-image: /img/blazing-moon.jpg
 series: The Tynder Crown Chronicles
 category: latest
 permalink: /books/blazing-moon
-price: $3.99
+price: $2.99
 bookNumber: 2
-amazonLink: https://www.amazon.com/gp/product/B01M1BRM85/ref=as_li_tl?ie=UTF8&tag=owensmc-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B01M1BRM85&linkId=85b4cb9c64b6d5986471891f34b2eff7
+amazonLink: ""
+buyLinks:
+  - link: https://www.amazon.com/gp/product/B01M1BRM85?notRedirectToSDP=1&ref_=dbs_mng_calw_1&storeType=ebooks
+    name: Amazon
+    logo: amazon
 rating: 5
 reviewCount: 8
 ---
