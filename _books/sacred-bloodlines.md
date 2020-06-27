@@ -1,19 +1,25 @@
 ---
 layout: book
-title:  "Sacred Bloodlines"
-genre: "Young Adult Fantasy"
-cover-image: "/img/sacred-bloodlines.jpg"
-series: "The Sacred Guardians Series"
-permalink: "/books/sacred-bloodlines"
+title: Sacred Bloodlines
+genre: Young Adult Fantasy
+cover-image: /img/sacred-bloodlines.jpg
+series: The Sacred Guardians Series
+permalink: /books/sacred-bloodlines
+price: Free
 bookNumber: 1
-price: "Free"
 buyLinks:
-  - name: "Amazon"
-    link: "https://www.amazon.com/gp/product/B006C7KFI2/ref=as_li_tl?ie=UTF8&tag=owensmc-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B006C7KFI2&linkId=e210d199c53f3710e60948e5efd84fd2"
-    logo: "amazon"
-  - name: "iBooks"
-    link: "https://itunes.apple.com/us/book/sacred-bloodlines/id1130843228?mt=11"
-    logo: "apple"
+  - name: Apple Books
+    link: https://books.apple.com/us/book/sacred-bloodlines/id1130843228
+    logo: apple
+  - name: Amazon
+    link: https://www.amazon.com/gp/product/B006C7KFI2/ref=dbs_a_def_rwt_bibl_vppi_i3
+    logo: amazon
+  - name: Kobo
+    logo: book
+    link: https://www.kobo.com/us/en/ebook/sacred-bloodlines-2
+  - name: Barnes & Noble
+    logo: bookmark
+    link: https://www.barnesandnoble.com/w/sacred-bloodlines-wendy-owens/1107694843?ean=2940153414195
 rating: 4.2
 reviewCount: 166
 ---
