@@ -10,6 +10,9 @@ buyLinks:
   - name: Amazon
     logo: amazon
     link: https://www.amazon.com/gp/product/B071VFMZYX/ref=dbs_a_def_rwt_bibl_vppi_i16
+  - name: Kobo
+    link: https://www.kobo.com/us/en/ebook/stubborn-love-box-set-books-1-3
+    logo: book
 rating: 5
 reviewCount: 2
 ---
