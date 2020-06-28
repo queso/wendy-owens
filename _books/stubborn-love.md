@@ -17,6 +17,9 @@ buyLinks:
   - name: Barnes and Noble
     logo: bookmark
     link: https://www.barnesandnoble.com/w/stubborn-love-wendy-owens/1116958151?ean=2940163822737
+  - name: Kobo
+    logo: book
+    link: https://www.kobo.com/us/en/ebook/stubborn-love-7
 rating: 4.3
 reviewCount: 351
 ---
