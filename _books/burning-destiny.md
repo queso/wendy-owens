@@ -14,7 +14,7 @@ buyLinks:
     name: Amazon
     logo: amazon
   - link: https://www.kobo.com/us/en/ebook/burning-destiny-1
-    name: kobo
+    name: Kobo
     logo: book
 rating: 5
 reviewCount: 2
