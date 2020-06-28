@@ -6,7 +6,7 @@ cover-image: /img/uncloaked-generic.jpg
 series: The Tynder Crown Chronicles
 permalink: /books/ADD-TITLE-WITH-DASHES-HERE
 price: "0.99"
-bookNumber: -1
+bookNumber: ""
 amazonLink: ""
 buyLinks:
   - name: Amazon
