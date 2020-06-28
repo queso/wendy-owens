@@ -6,7 +6,7 @@ cover-image: /img/uncloaked-generic.jpg
 series: The Tynder Crown Chronicles
 permalink: /books/Uncloaked
 price: $0.99
-bookNumber: ""
+bookNumber: 0
 amazonLink: ""
 buyLinks:
   - name: Amazon
