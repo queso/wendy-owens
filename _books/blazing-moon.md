@@ -16,6 +16,9 @@ buyLinks:
   - name: Kobo
     link: https://www.kobo.com/us/en/ebook/blazing-moon-2
     logo: book
+  - name: Barnes & Noble
+    link: https://www.barnesandnoble.com/w/blazing-moon-wendy-owens/1121532581?ean=2940164309589
+    logo: bookmark
 rating: 5
 reviewCount: 8
 ---
