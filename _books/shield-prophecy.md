@@ -7,7 +7,7 @@ series: The Sacred Guardians Series
 permalink: /books/the-shield-prophecy
 price: $3.99
 bookNumber: 3
-amazonLink: https://www.amazon.com/gp/product/B00AVE60JK/ref=as_li_tl?ie=UTF8&tag=owensmc-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B00AVE60JK&linkId=6f90ab4966dae7623a14d5eb765679af
+amazonLink: ""
 buyLinks:
   - name: Apple Books
     link: https://books.apple.com/us/book/the-shield-prophecy/id1495596694
