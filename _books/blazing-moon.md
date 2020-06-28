@@ -13,6 +13,9 @@ buyLinks:
   - link: https://www.amazon.com/gp/product/B01M1BRM85?notRedirectToSDP=1&ref_=dbs_mng_calw_1&storeType=ebooks
     name: Amazon
     logo: amazon
+  - name: Kobo
+    link: https://www.kobo.com/us/en/ebook/blazing-moon-2
+    logo: book
 rating: 5
 reviewCount: 8
 ---
