@@ -1,10 +1,10 @@
 ---
 layout: book
 title: Uncloaked
-genre: Urban Fantasy
+genre: New Adult Fantasy
 cover-image: /img/uncloaked-generic.jpg
 series: The Tynder Crown Chronicles
-permalink: /books/ADD-TITLE-WITH-DASHES-HERE
+permalink: /books/Uncloaked
 price: "0.99"
 bookNumber: ""
 amazonLink: ""
