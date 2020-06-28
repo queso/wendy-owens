@@ -7,7 +7,7 @@ series: The Sacred Guardians Series
 permalink: /books/the-lost-years
 price: $3.99
 bookNumber: 4
-amazonLink: https://www.amazon.com/gp/product/B01JBY8WPU/ref=as_li_tl?ie=UTF8&tag=owensmc-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B01JBY8WPU&linkId=0d5a82ee0a5d2469a34d2c0e70e2dc76
+amazonLink: ""
 buyLinks:
   - link: https://books.apple.com/us/book/the-lost-years/id1495602433
     name: Apple Books
