@@ -1,7 +1,7 @@
 ---
 layout: book
 title: O' Deadly Night
-genre: Cozy Mystery
+genre: COZY MYSTERIES
 cover-image: /img/o-deadly-night-kindle.jpg
 series: The Penny Preston Mysteries
 permalink: /books/O-Deadly-Night
