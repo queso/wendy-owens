@@ -9,9 +9,15 @@ price: $2.99
 bookNumber: 2
 amazonLink: ""
 buyLinks:
+  - link: https://books.apple.com/us/book/unhallowed-curse/id1495596685
+    logo: apple
+    name: Apple Books
   - name: Amazon
     link: https://www.amazon.com/gp/product/B007PX46LE?notRedirectToSDP=1&ref_=dbs_mng_calw_1&storeType=ebooks
     logo: amazon
+  - link: https://www.kobo.com/us/en/ebook/unhallowed-curse-3
+    name: Kobo
+    logo: book
 rating: 4.4
 reviewCount: 33
 ---
