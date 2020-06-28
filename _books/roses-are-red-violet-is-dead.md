@@ -1,17 +1,16 @@
 ---
 layout: book
-title: Roses Are Red Violet is Dead
-genre: cozy mystery
-cover-image: /img/roses-are-red-violet-is-dead-nook.jpg
-series: A Penny Preston Mystery
-permalink: /books/ADD-TITLE-WITH-DASHES-HERE
+title: Roses Are Red Violet Is Dead
+genre: Cozy Mysteries
+cover-image: /img/roses-are-red-violet-is-dead-kindle.jpg
+series: The Penny Preston Mysteries
+permalink: /books/roses-are-red-violet-is-dead
 price: "2.99"
 bookNumber: 3
-amazonLink: ""
 buyLinks:
   - name: Amazon
     logo: amazon
-    link: https://www.amazon.com/gp/product/B0788T884T?notRedirectToSDP=1&ref_=dbs_mng_calw_2&storeType=ebooks
+    link: https://www.amazon.com/gp/product/B0788T884T/ref=dbs_a_def_rwt_hsch_vapi_tkin_p2_i0
 rating: 5
 reviewCount: 5
 ---
