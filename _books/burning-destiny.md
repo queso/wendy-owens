@@ -13,6 +13,9 @@ buyLinks:
   - link: https://www.amazon.com/Burning-Destiny-Paranormal-Mystery-Chronicles-ebook/dp/B01KSFP1AA/ref=sr_1_1?dchild=1&keywords=burning+destiny&qid=1593299037&s=digital-text&sr=1-1
     name: Amazon
     logo: amazon
+  - link: https://www.kobo.com/us/en/ebook/burning-destiny-1
+    name: kobo
+    logo: book
 rating: 5
 reviewCount: 2
 ---
