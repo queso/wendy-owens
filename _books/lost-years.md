@@ -1,13 +1,23 @@
 ---
 layout: book
-title:  "The Lost Years"
-genre: "Young Adult Fantasy"
-cover-image: "/img/the-lost-years.jpg"
-series: "The Sacred Guardians Series"
-permalink: "/books/the-lost-years"
-price: "$3.99"
+title: The Lost Years
+genre: Young Adult Fantasy
+cover-image: /img/the-lost-years.jpg
+series: The Sacred Guardians Series
+permalink: /books/the-lost-years
+price: $3.99
 bookNumber: 4
-amazonLink: "https://www.amazon.com/gp/product/B01JBY8WPU/ref=as_li_tl?ie=UTF8&tag=owensmc-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B01JBY8WPU&linkId=0d5a82ee0a5d2469a34d2c0e70e2dc76"
+amazonLink: https://www.amazon.com/gp/product/B01JBY8WPU/ref=as_li_tl?ie=UTF8&tag=owensmc-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B01JBY8WPU&linkId=0d5a82ee0a5d2469a34d2c0e70e2dc76
+buyLinks:
+  - link: https://books.apple.com/us/book/the-lost-years/id1495602433
+    name: Apple Books
+    logo: apple
+  - name: Amazon
+    link: https://www.amazon.com/gp/product/B01JBY8WPU?notRedirectToSDP=1&ref_=dbs_mng_calw_3&storeType=ebooks
+    logo: amazon
+  - name: Kobo
+    link: https://www.kobo.com/us/en/ebook/the-lost-years-27
+    logo: book
 rating: 5
 reviewCount: 2
 ---
