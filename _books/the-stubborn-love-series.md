@@ -7,6 +7,9 @@ series: The Stubborn Love Series
 permalink: /books/The-Stubborn-Love-Series
 price: "7.99"
 buyLinks:
+  - name: Apple Books
+    link: https://books.apple.com/us/book/stubborn-love-box-set-books-1-3/id1521117229
+    logo: apple
   - name: Amazon
     logo: amazon
     link: https://www.amazon.com/gp/product/B071VFMZYX/ref=dbs_a_def_rwt_bibl_vppi_i16
