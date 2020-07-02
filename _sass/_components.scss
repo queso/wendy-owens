@@ -35,6 +35,10 @@
 	padding: 60px 0 50px;
 	margin: 0;
 
+	.fd-error, .fd-success {
+		text-align: center;
+	}
+
 	label {
 		display: block;
 		text-transform: uppercase;
