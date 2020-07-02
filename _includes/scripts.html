@@ -30,8 +30,10 @@
 
   newsletterForm.addEventListener('submit', async (e) => {
     e.preventDefault();
-    
     const newsletterData = new FormData(newsletterForm);
+
+    $('.fd-success').siblings().hide()
+    successSection.innerHTML = '<h3>Subscribing...</h3>'
  
     await fetch('https://form.flodesk.com/submit', {
       method: 'POST',
