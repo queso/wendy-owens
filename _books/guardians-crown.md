@@ -10,15 +10,9 @@ price: $3.99
 bookNumber: 5
 amazonLink: ""
 buyLinks:
-  - link: https://books.apple.com/us/book/the-guardians-crown/id1495602417
-    name: Apple Books
-    logo: apple
   - name: Amazon
     logo: amazon
     link: https://www.amazon.com/gp/product/B01KAIDXZK?notRedirectToSDP=1&ref_=dbs_mng_calw_4&storeType=ebooks
-  - name: Kobo
-    link: https://www.kobo.com/us/en/ebook/the-guardians-crown-4
-    logo: book
 rating: 13
 reviewCount: 2
 ---
