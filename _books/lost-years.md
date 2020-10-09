@@ -9,15 +9,9 @@ price: $3.99
 bookNumber: 4
 amazonLink: ""
 buyLinks:
-  - link: https://books.apple.com/us/book/the-lost-years/id1495602433
-    name: Apple Books
-    logo: apple
   - name: Amazon
     link: https://www.amazon.com/gp/product/B01JBY8WPU?notRedirectToSDP=1&ref_=dbs_mng_calw_3&storeType=ebooks
     logo: amazon
-  - name: Kobo
-    link: https://www.kobo.com/us/en/ebook/the-lost-years-27
-    logo: book
 rating: 5
 reviewCount: 2
 ---
