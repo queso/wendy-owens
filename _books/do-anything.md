@@ -10,18 +10,9 @@ price: $3.99
 bookNumber: 1
 amazonLink: ""
 buyLinks:
-  - name: Apple Books
-    link: https://books.apple.com/us/book/do-anything/id1519103716
-    logo: apple
   - name: Amazon
     link: https://www.amazon.com/gp/product/B00JEN5Y0U/ref=as_li_tl?ie=UTF8&tag=owensmc-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B00JEN5Y0U&linkId=31016d7567ff795b7031fe2b8cabbb99
     logo: amazon
-  - name: Barnes & Noble
-    link: https://www.barnesandnoble.com/w/do-anything-wendy-owens/1118943133?ean=2940164378592
-    logo: bookmark
-  - name: Kobo
-    link: https://www.kobo.com/us/en/ebook/do-anything-4
-    logo: book
 rating: 4.4
 reviewCount: 89
 ---
