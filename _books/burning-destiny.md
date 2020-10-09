@@ -10,15 +10,9 @@ price: $2.99
 bookNumber: 1
 amazonLink: ""
 buyLinks:
-  - name: Apple Books
-    link: https://books.apple.com/us/book/burning-destiny/id1521104743
-    logo: apple
   - link: https://www.amazon.com/Burning-Destiny-Paranormal-Mystery-Chronicles-ebook/dp/B01KSFP1AA/ref=sr_1_1?dchild=1&keywords=burning+destiny&qid=1593299037&s=digital-text&sr=1-1
     name: Amazon
     logo: amazon
-  - link: https://www.kobo.com/us/en/ebook/burning-destiny-1
-    name: Kobo
-    logo: book
 rating: 5
 reviewCount: 2
 ---
