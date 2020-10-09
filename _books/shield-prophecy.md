@@ -9,15 +9,9 @@ price: $3.99
 bookNumber: 3
 amazonLink: ""
 buyLinks:
-  - name: Apple Books
-    link: https://books.apple.com/us/book/the-shield-prophecy/id1495596694
-    logo: apple
   - name: Amazon
     logo: amazon
     link: https://www.amazon.com/Shield-Prophecy-Sacred-Guardians-Book-ebook/dp/B00AVE60JK/ref=sr_1_1?dchild=1&keywords=shield+prophecy&qid=1593367257&s=digital-text&sr=1-1
-  - name: Kobo
-    link: https://www.kobo.com/us/en/ebook/the-shield-prophecy-3
-    logo: book
 rating: 4.5
 reviewCount: 30
 ---
