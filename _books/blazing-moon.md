@@ -10,18 +10,9 @@ price: $2.99
 bookNumber: 2
 amazonLink: ""
 buyLinks:
-  - name: Apple Books
-    link: https://books.apple.com/us/book/blazing-moon/id1521096554
-    logo: apple
   - link: https://www.amazon.com/gp/product/B01M1BRM85?notRedirectToSDP=1&ref_=dbs_mng_calw_1&storeType=ebooks
     name: Amazon
     logo: amazon
-  - name: Kobo
-    link: https://www.kobo.com/us/en/ebook/blazing-moon-2
-    logo: book
-  - name: Barnes & Noble
-    link: https://www.barnesandnoble.com/w/blazing-moon-wendy-owens/1121532581?ean=2940164309589
-    logo: bookmark
 rating: 5
 reviewCount: 8
 ---
