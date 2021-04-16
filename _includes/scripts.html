@@ -7,51 +7,68 @@
 <!-- Preload Images -->
 <script type="text/javascript" src="{{ site.github.url }}/js/preload.js"></script>
 <!-- Bootstrap JS -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script
+  src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+  integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+  crossorigin="anonymous"
+></script>
 <!-- Drip -->
 <script type="text/javascript">
   var _dcq = _dcq || [];
   var _dcs = _dcs || {};
-  _dcs.account = '5180774';
+  _dcs.account = "5180774";
 
-  (function() {
-    var dc = document.createElement('script');
-    dc.type = 'text/javascript'; dc.async = true;
-    dc.src = '//tag.getdrip.com/5180774.js';
-    var s = document.getElementsByTagName('script')[0];
+  (function () {
+    var dc = document.createElement("script");
+    dc.type = "text/javascript";
+    dc.async = true;
+    dc.src = "//tag.getdrip.com/5180774.js";
+    var s = document.getElementsByTagName("script")[0];
     s.parentNode.insertBefore(dc, s);
   })();
 </script>
 
 <script>
-  const newsletterForm = document.getElementById('newsletterForm');
-  const successSection = document.getElementById('successSection');
-  const errorSection = document.getElementById('errorSection');
+  const newsletterForm = document.getElementById("newsletterForm");
+  const successSection = document.getElementById("successSection");
+  const errorSection = document.getElementById("errorSection");
 
-  newsletterForm.addEventListener('submit', async (e) => {
+  newsletterForm.addEventListener("submit", async (e) => {
     e.preventDefault();
     const newsletterData = new FormData(newsletterForm);
+    const API_KEY = '5fcf13de50dca03df8a263fd01f8cfaa-us19';
+  	const authorization = "Basic " + btoa("randomstring:" + API_KEY);
 
-    $('.fd-success').siblings().hide()
-    successSection.innerHTML = '<h3>Subscribing...</h3>'
- 
-    await fetch('https://form.flodesk.com/submit', {
-      method: 'POST',
-      headers: {
-        'Accept': 'application/json',
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify({ email: newsletterData.get('email'), firstName: newsletterData.get('firstName'), 'tags[]': newsletterData.get('tags[]'),  renderTime: Date.now(), submitToken: '2aaa33fb415b1cf8d92a59b3616a18cce73373fb1babae72646265c357b09add793f48e9c07c86737c135fc4760297da3156e97a0eb6243c54bd1d71f4d697784eb778298b1acdca7122bcd975cc41d84b126ddcaa66744c7da32f7216a8c9f8' })
-    })
-      .then( res => {
+    $(".fd-success").siblings().hide();
+    successSection.innerHTML = "<h3>Subscribing...</h3>";
 
-        if (!res.ok) {
-          $('.fd-error').siblings().hide()
-          errorSection.innerHTML = '<h3>Uh oh. Something went wrong...</h3>'
-        } else {
-          $('.fd-success').siblings().hide()
-          successSection.innerHTML = '<h3>Thanks! Check your email for a confirmation</h3>'
-        }
-      })
-  })
+    await fetch(
+      "https://us1.api.mailchimp.com/3.0/lists/12f9cdd4aa/members",
+      {
+        method: "POST",
+        headers: {
+          authorization,
+          Accept: "application/json",
+          "Content-Type": "application/json",
+      	  'Access-Control-Allow-Origin': '*',
+        },
+        body: JSON.stringify({
+          email_address: newsletterData.get("email"),
+          status: "subscribed",
+          merge_fields: {
+            FNAME: newsletterData.get("firstName"),
+          },
+          "tags": newsletterData.get("tags[]"),
+        }),
+      }
+    ).then((res) => {
+      if (!res.ok) {
+        $(".fd-error").siblings().hide();
+        errorSection.innerHTML = "<h3>Uh oh. Something went wrong...</h3>";
+      } else {
+        $(".fd-success").siblings().hide();
+        successSection.innerHTML = "<h3>Thanks! Check your email for a confirmation</h3>";
+      }
+    });
+  });
 </script>
