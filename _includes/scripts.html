@@ -13,20 +13,6 @@
   crossorigin="anonymous"
 ></script>
 <!-- Drip -->
-<script type="text/javascript">
-  var _dcq = _dcq || [];
-  var _dcs = _dcs || {};
-  _dcs.account = "5180774";
-
-  (function () {
-    var dc = document.createElement("script");
-    dc.type = "text/javascript";
-    dc.async = true;
-    dc.src = "//tag.getdrip.com/5180774.js";
-    var s = document.getElementsByTagName("script")[0];
-    s.parentNode.insertBefore(dc, s);
-  })();
-</script>
 
 <script>
   const newsletterForm = document.getElementById("newsletterForm");
@@ -36,8 +22,6 @@
   newsletterForm.addEventListener("submit", async (e) => {
     e.preventDefault();
     const newsletterData = new FormData(newsletterForm);
-    const API_KEY = "5fcf13de50dca03df8a263fd01f8cfaa-us19";
-    const authorization = "Basic " + btoa("randomstring:" + API_KEY);
 
     $(".fd-success").siblings().hide();
     successSection.innerHTML = "<h3>Subscribing...</h3>";
@@ -45,7 +29,7 @@
     await fetch("/api/subscribe", {
       method: "POST",
       body: JSON.stringify({
-        email_address: newsletterData.get("email"),
+        email: newsletterData.get("email"),
         firstName: newsletterData.get("firstName"),
         tags: newsletterData.get("tags[]"),
       }),
