@@ -4,6 +4,7 @@ title: Stubborn Love
 genre: Romance
 cover-image: /img/stubborn-love.jpg
 series: The Stubborn Love Series
+category: latest
 permalink: /books/stubborn-love
 price: $2.99
 bookNumber: 1
