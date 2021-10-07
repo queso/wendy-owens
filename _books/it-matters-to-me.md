@@ -4,7 +4,7 @@ title: It Matters To Me
 genre: Romance
 cover-image: /img/it-matters-to-me-nook.jpg
 series: The Wandering Hearts Series
-category: latest
+category: ""
 permalink: /books/it-matters-to-me
 price: $3.99
 bookNumber: 2
