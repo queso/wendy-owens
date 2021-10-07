@@ -4,7 +4,7 @@ title: The Guardians Crown
 genre: Young Adult Fantasy
 cover-image: /img/the-guardians-crown.jpg
 series: The Sacred Guardians Series
-category: latest
+category: ""
 permalink: /books/the-guardians-crown
 price: $3.99
 bookNumber: 5
