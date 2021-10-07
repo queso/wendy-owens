@@ -4,6 +4,7 @@ title: Sacred Bloodlines
 genre: Young Adult Fantasy
 cover-image: /img/sacred-bloodlines.jpg
 series: The Sacred Guardians Series
+category: latest
 permalink: /books/sacred-bloodlines
 price: Free
 bookNumber: 1
