@@ -4,6 +4,7 @@ title: O' Deadly Night
 genre: Cozy Mystery
 cover-image: /img/o-deadly-night-kindle.jpg
 series: The Penny Preston Mysteries
+category: latest
 permalink: /books/O-Deadly-Night
 price: $2.99
 bookNumber: 2
