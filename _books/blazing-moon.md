@@ -4,7 +4,7 @@ title: Blazing Moon
 genre: New Adult Fantasy
 cover-image: /img/blazing-moon.jpg
 series: The Tynder Crown Chronicles
-category: latest
+category: ""
 permalink: /books/blazing-moon
 price: $2.99
 bookNumber: 2
