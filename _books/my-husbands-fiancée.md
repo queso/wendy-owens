@@ -3,7 +3,7 @@ layout: book
 title: My Husband's Fiancée
 genre: Psychological Thriller
 cover-image: /img/my-husband-s-fiancée-ebook-complete-1-.jpg
-category: Psychological Thriller
+category: latest
 permalink: /books/My-Husbands-Fiancee
 price: $4.99
 bookNumber: 1
