@@ -4,11 +4,7 @@ title: Books by Wendy Owens
 permalink: /books/
 ---
 
-{% assign booksRomance = site.books | where: "genre", "Romance" | sort: 'bookNumber' | sort: 'series' %}
-{% assign booksYAFantasy = site.books | where: "genre", "Young Adult Fantasy" | sort: 'bookNumber' | sort: 'series' %}
-{% assign booksNAFantasy = site.books | where: "genre", "New Adult Fantasy" | sort: 'bookNumber' | sort: 'series' %}
-{% assign booksCozy = site.books | where: "genre", "Cozy Mystery" | sort: 'bookNumber' | sort: 'series' %}
-
+{% assign books = site.books | sort: 'genre_position', 'last' | group_by: 'genre' %}
 <div class="page-content">
 
   <div class="container title">
@@ -16,56 +12,18 @@ permalink: /books/
     <div class="divide"></div>
   </div>
 
-  <div class="content-section">
-    {% if booksRomance != empty %}
-      <div class="section-heading">
-        <h3 class="heading">Romance</h3>
-      </div>
-      <ul class="books-list">
-        {% for book in booksRomance %}
-          {% include book-item.html %}
-        {% endfor %}
-      </ul>
+  {% for genre in books %}
+    {% assign books = genre.items | sort: 'bookNumber' | sort: 'series' %}
+    {% if books != empty %}
+      <div class="content-section"></div>
+        <div class="section-heading">
+          <h3 class="heading">{{genre.name}}</h3>
+        </div>
+        <ul class="books-list">
+          {% for book in books %}
+            {% include book-item.html %}
+          {% endfor %}
+        </ul>
     {% endif %}
-  </div>
-
-  <div class="content-section">
-    {% if booksNAFantasy != empty %}
-      <div class="section-heading">
-        <h3 class="heading">New Adult Fantasy</h3>
-      </div>
-      <ul class="books-list">
-        {% for book in booksNAFantasy %}
-          {% include book-item.html %}
-        {% endfor %}
-      </ul>
-    {% endif %}
-  </div>
-
-  <div class="content-section">
-    {% if booksYAFantasy != empty %}
-      <div class="section-heading">
-        <h3 class="heading">Young Adult Fantasy</h3>
-      </div>
-      <ul class="books-list">
-        {% for book in booksYAFantasy %}
-          {% include book-item.html %}
-        {% endfor %}
-      </ul>
-    {% endif %}
-  </div>
-
-  <div class="content-section ext-bottom">
-    {% if booksCozy != empty %}
-      <div class="section-heading">
-        <h3 class="heading">Cozy Mysteries</h3>
-      </div>
-      <ul class="books-list">
-        {% for book in booksCozy %}
-          {% include book-item.html %}
-        {% endfor %}
-      </ul>
-    {% endif %}
-  </div>
-
+  {% endfor %}
 </div>
