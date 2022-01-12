@@ -2,6 +2,7 @@
 layout: book
 title: Roses Are Red Violet Is Dead
 genre: Cozy Mystery
+genre_position: 2
 cover-image: /img/roses-are-red-violet-is-dead-kindle.jpg
 series: The Penny Preston Mysteries
 category: latest

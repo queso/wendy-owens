@@ -2,6 +2,7 @@
 layout: book
 title: Jack Be Nimble, Jack Be Dead
 genre: Cozy Mystery
+genre_position: 2
 cover-image: /img/jack-be-nimble.jpg
 series: The Penny Preston Mysteries
 category: latest

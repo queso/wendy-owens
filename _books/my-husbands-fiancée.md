@@ -2,6 +2,7 @@
 layout: book
 title: My Husband's Fiancée
 genre: Psychological Thriller
+genre_position: 1
 cover-image: /img/my-husband-s-fiancée-ebook-complete-1-.jpg
 category: latest
 permalink: /books/My-Husbands-Fiancee
