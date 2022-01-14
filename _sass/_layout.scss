@@ -59,45 +59,75 @@
         bottom: -85px;
     }
 
+    &.my-husband-finacee {
+        bottom: -85px;
+        width: 600px;
+        right: -55px;
+    }
+
     &.active {
         display: inline;
     }
 
-    @media (min-width: 768px) { 
+    @media (min-width: 768px) {
         width: 385px;
         bottom: -75px;
         right: 0;
-        &.sacred-guardians { 
-            width: 360px; 
+        &.sacred-guardians {
+            width: 360px;
             bottom: -75px;
+        }
+
+        &.my-husband-finacee {
+            width: 450px;
+            right: -40px;
+            bottom: -70px;
         }
     }
 
-    @media (min-width: 992px) { 
+    @media (min-width: 992px) {
         width: 625px;
         bottom: -145px;
         right: 0;
-        &.sacred-guardians { 
-            width: 600px; 
+        &.sacred-guardians {
+            width: 600px;
             bottom: -125px;
         }
-    }
 
-    @media (min-width: 1200px) { 
-        width: 625px;
-        bottom: -205px;
-        &.sacred-guardians { 
-            width: 600px; 
-            bottom: -215px;
+        &.my-husband-finacee {
+            bottom: -85px;
+            width: 600px;
+            right: -50px;
         }
     }
 
-    @media (min-width: 1360px) { 
+    @media (min-width: 1200px) {
+        width: 625px;
+        bottom: -205px;
+        &.sacred-guardians {
+            width: 600px;
+            bottom: -215px;
+        }
+
+        &.my-husband-finacee {
+            bottom: -95px;
+            width: 650px;
+            right: -50px;
+        }
+    }
+
+    @media (min-width: 1360px) {
         width: 725px;
         bottom: -205px;
-        &.sacred-guardians { 
-            width: 700px; 
+        &.sacred-guardians {
+            width: 700px;
             bottom: -215px;
+        }
+
+        &.my-husband-finacee {
+            bottom: -110px;
+            width: 780px;
+            right: -50px;
         }
     }
  }
@@ -155,17 +185,17 @@
         font-weight: 600;
     }
 
-     @media (min-width: 768px) { 
+     @media (min-width: 768px) {
         font-size: 40px;
     }
 
     /* Medium devices (desktops, 992px and up) */
-    @media (min-width: 992px) { 
+    @media (min-width: 992px) {
         font-size: 40px;
     }
 
     /* Medium devices (desktops, 992px and up) */
-    @media (min-width: 1200px) { 
+    @media (min-width: 1200px) {
         font-size: 50px;
     }
 }
