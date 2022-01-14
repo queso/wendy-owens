@@ -2,6 +2,7 @@
 layout: book
 title: Uncloaked
 genre: New Adult Fantasy
+genre_position: 4
 cover-image: /img/uncloaked-generic.jpg
 series: The Tynder Crown Chronicles
 permalink: /books/Uncloaked

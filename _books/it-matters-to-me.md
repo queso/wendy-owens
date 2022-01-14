@@ -2,6 +2,7 @@
 layout: book
 title: It Matters To Me
 genre: Romance
+genre_position: 3
 cover-image: /img/do-anything-high.jpg
 series: The Wandering Hearts Series
 category: ""
