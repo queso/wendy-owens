@@ -2,6 +2,7 @@
 layout: book
 title: Only in Dreams
 genre: Romance
+genre_position: 3
 cover-image: /img/only-in-dreams.jpg
 series: The Stubborn Love Series
 permalink: /books/only-in-dreams

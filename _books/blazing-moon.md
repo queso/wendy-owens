@@ -2,6 +2,7 @@
 layout: book
 title: Blazing Moon
 genre: New Adult Fantasy
+genre_position: 4
 cover-image: /img/blazing-moon.jpg
 series: The Tynder Crown Chronicles
 category: ""

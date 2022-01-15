@@ -2,7 +2,7 @@
 layout: book
 title: Wash Me Away
 genre: Romance
-genre_position: 1
+genre_position: 3
 cover-image: /img/wash-me-away.jpg
 series: Wash Me Away
 category: ""

@@ -2,6 +2,7 @@
 layout: book
 title: Burning Destiny
 genre: New Adult Fantasy
+genre_position: 4
 cover-image: /img/burning-destiny.jpg
 series: The Tynder Crown Chronicles
 category: ""

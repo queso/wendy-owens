@@ -2,6 +2,7 @@
 layout: book
 title: The Guardians Crown
 genre: Young Adult Fantasy
+genre_position: 5
 cover-image: /img/the-guardians-crown.jpg
 series: The Sacred Guardians Series
 category: ""
@@ -16,6 +17,6 @@ buyLinks:
 rating: 13
 reviewCount: 2
 ---
-The world will never be the same. The veil on Earth has been lifted. War has begun and humans have started to choose sides. 
+The world will never be the same. The veil on Earth has been lifted. War has begun and humans have started to choose sides.
 
-With everything at stake Gabe is forced to answer the call of the Prophecy, will he give his life to save the world? What about just to save the one he loves the most? The Guardians struggle to find another way, but with time running out Gabe may be the only one who can stop the forces Baal has set in motion. 
+With everything at stake Gabe is forced to answer the call of the Prophecy, will he give his life to save the world? What about just to save the one he loves the most? The Guardians struggle to find another way, but with time running out Gabe may be the only one who can stop the forces Baal has set in motion.

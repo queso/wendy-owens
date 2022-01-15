@@ -2,6 +2,7 @@
 layout: book
 title: Stubborn Love
 genre: Romance
+genre_position: 3
 cover-image: /img/stubborn-love.jpg
 series: The Stubborn Love Series
 category: latest

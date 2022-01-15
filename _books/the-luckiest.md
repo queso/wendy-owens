@@ -2,6 +2,7 @@
 layout: book
 title: The Luckiest
 genre: Romance
+genre_position: 3
 cover-image: /img/the-luckiest.jpg
 series: The Stubborn Love Series
 permalink: /books/the-luckiest
