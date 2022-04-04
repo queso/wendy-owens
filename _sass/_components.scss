@@ -129,20 +129,21 @@
 
 .books-list > .book {
 	display: inline-block;
-	width: 215px;
+	width: 315px;
 	text-align: center;
 	margin: 0 10px;
+
 
 	.book-img {
 		position: relative;
 		margin: 0 auto;
-		width: 191px;
+		width: 291px;
 	}
 
 	.book-img > img.cover {
-		width: 177px;
+		width: 267px;
 		margin: 0 auto;
-		height: 283px;
+		height: 383px;
 	}
 
 	.book-img > .shim {
