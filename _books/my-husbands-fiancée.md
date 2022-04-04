@@ -10,15 +10,6 @@ price: $4.99
 bookNumber: 1
 amazonLink: ""
 buyLinks:
-  - name: Apple
-    link: https://books.apple.com/us/book/my-husbands-fianc%C3%A9e/id1584528404
-    logo: apple
-  - name: Barnes and Noble
-    link: https://www.barnesandnoble.com/w/my-husbands-fianc-e-wendy-owens/1140135303?ean=2940165444845
-    logo: bookmark
-  - name: Kobo
-    logo: book
-    link: https://www.kobo.com/us/en/ebook/my-husband-s-fiancee
   - name: Amazon
     link: https://www.amazon.com/My-Husbands-Fianc%C3%A9e-suspenseful-psychological-ebook/dp/B09D19123C/ref=sr_1_3?dchild=1&keywords=my+husbands+fiancee&qid=1633617610&sr=8-3
     logo: amazon
