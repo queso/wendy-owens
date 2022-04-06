@@ -488,9 +488,19 @@
    background: #FF9900;
    color: #131212;
  }
-
+ 
  .buyAmazon:hover {
-   background: lighten(#FF9900, 25%);
+	 background: lighten(#FF9900, 25%);
+   color: #131212;
+  }
+
+	.buyAudible {
+		background: #FF9900;
+		color: #131212;
+	}
+
+	.buyAudible:hover {
+	 background: lighten(#FF9900, 25%);
    color: #131212;
   }
 
