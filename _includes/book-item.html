@@ -1,8 +1,14 @@
 <li class="book">
   <div class="book-img">
     <div class="shim"></div>
-    <img class="cover" src="{{ book.cover-image }}">
-
+    <div class="cover-ribbon-container">
+      <img class="cover" src="{{ book.cover-image }}">
+      {% if book.preorder %}
+        <div class="corner-ribbon bottom-right shadow">
+          <span class="ribbon-text">PREORDER</span> 
+        </div>
+      {% endif %}
+    </div>
     <!-- default hidden -->
     <div class="more-info">
       <a href="{{ site.github.url }}{{ book.permalink }}" class="more-link">More Info</a>

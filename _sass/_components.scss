@@ -1,3 +1,7 @@
+:root {
+	--ribbon-color: #125C81;
+}
+
 /**
  * Book Slider
  */
@@ -139,7 +143,13 @@
 		width: 291px;
 	}
 
-	.book-img > img.cover {
+	.book-img .cover-ribbon-container {
+		position: relative;
+		display: inline-block;
+		overflow: hidden;
+	}
+
+	.book-img img.cover {
 		width: 267px;
 		margin: 0 auto;
 		height: 383px;
@@ -510,3 +520,32 @@
 		font-weight: 500;
 	}
 
+/* The ribbons */
+
+.corner-ribbon{
+  width: 45px;
+  background: var(--ribbon-color);
+  position: absolute;
+  text-align: center;
+  line-height: 50px;
+  letter-spacing: 1px;
+  color: #f0f0f0;
+	writing-mode: vertical-lr;
+	opacity: 0.95;
+}
+
+.corner-ribbon.shadow{
+  box-shadow: 0 0 10px rgba(0,0,0,.5);
+}
+
+.corner-ribbon.bottom-right{
+  top: 152px;
+  bottom: -153px;
+  left: 207px;
+  transform: rotate(225deg);
+  -webkit-transform: rotate(225deg);
+}
+.ribbon-text {
+	justify-content: center;
+  display: flex;
+}

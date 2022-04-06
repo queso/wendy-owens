@@ -23,7 +23,13 @@ layout: default
       <div class="row">
         <div class="col-md-12">
           <a href="{{ link.link }}" class="buyBook buy{{ link.name }} btn btn-default"><i
-              class="fa fa-{{link.logo}}"></i> Buy on <strong>{{link.name}}</strong></a>
+              class="fa fa-{{link.logo}}"></i>
+              {% if page.preorder %}
+                <span>Preorder on</span> 
+                {% else %} 
+                <span>Buy on</span> 
+              {% endif %}
+              <strong>{{link.name}}</strong></a>
         </div>
       </div>
       {% endfor %}
@@ -31,7 +37,13 @@ layout: default
       <div class="row">
         <div class="col-md-12">
           <a href="{{ page.amazonLink }}" data-book="{{ page.title }}" class="buyBook buyAmazon btn btn-default"><i
-              class="fa fa-amazon"></i> Buy on <strong>Amazon</strong></a>
+              class="fa fa-amazon"></i>  
+              {% if page.preorder %}
+                <span>Preorder on</span> 
+                {% else %} 
+                <span>Buy on</span> 
+              {% endif %}
+              <strong>Amazon</strong></a>
         </div>
       </div>
       {% endif %}
