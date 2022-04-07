@@ -13,6 +13,9 @@ buyLinks:
   - name: Amazon
     link: https://www.amazon.com/Wash-Me-Away-Wendy-Owens-ebook/dp/B00WNWGH0A/ref=sr_1_1?dchild=1&keywords=wash+me+away&qid=1593293546&s=digital-text&sr=1-1
     logo: amazon
+  - name: Audible
+    logo: audible
+    link: https://www.audible.com/pd/Wash-Me-Away-Audiobook/B01C38HTVE?ref=a_author_We_c19_lProduct_1_4&pf_rd_p=1ae0e65e-ad09-4aa7-aa73-772cefb1b5e1&pf_rd_r=C0AD7MM7MF8FA2B66JFY
 rating: 4.6
 reviewCount: 39
 ---
