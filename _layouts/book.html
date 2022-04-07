@@ -22,8 +22,13 @@ layout: default
       {% for link in page.buyLinks %}
       <div class="row">
         <div class="col-md-12">
-          <a href="{{ link.link }}" class="buyBook buy{{ link.name }} btn btn-default"><i
-              class="fa fa-{{link.logo}}"></i>
+          <a href="{{ link.link }}" class="buyBook buy{{ link.name }} btn btn-default">
+            <i {% if link.logo == "audible" %}
+                class="fa-brands fa-{{link.logo}}" 
+                {% else %} 
+                class="fa fa-{{link.logo}}" 
+              {% endif %}
+              ></i>
               {% if page.preorder %}
                 <span>Preorder on</span> 
                 {% else %} 

@@ -2,20 +2,23 @@
 layout: book
 title: My Wife's Secrets
 genre: Psychological Thriller
-preorder: true
 genre_position: 1
 cover-image: /img/my-wife-secret.jpg
 category: latest
+series: My Husband's Fiancee
 permalink: /books/My-Wifes-Secret
 price: $4.99
-bookNumber: 1
+bookNumber: 2
 amazonLink: ""
 buyLinks:
   - name: Amazon
     link: https://www.amazon.com/gp/product/B09ML8L42L?notRedirectToSDP=1&ref_=dbs_mng_calw_1&storeType=ebooks
     logo: amazon
-rating: 5
-reviewCount: 0
+  - name: Audible
+    link: https://www.audible.com/pd/My-Wifes-Secrets-Audiobook/B09X292VJH?ref=a_author_We_c19_lProduct_1_7&pf_rd_p=1ae0e65e-ad09-4aa7-aa73-772cefb1b5e1&pf_rd_r=C0AD7MM7MF8FA2B66JFY
+    logo: audible
+rating: 4.4
+reviewCount: 501
 ---
 **Everyone has secrets. When my wife went to prison for the murder of my mistress, I realized just how dangerous some secrets could be.**\
 \

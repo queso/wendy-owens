@@ -150,7 +150,6 @@
 	}
 
 	.book-img img.cover {
-		width: 267px;
 		margin: 0 auto;
 		height: 383px;
 	}
@@ -498,9 +497,19 @@
    background: #FF9900;
    color: #131212;
  }
-
+ 
  .buyAmazon:hover {
-   background: lighten(#FF9900, 25%);
+	 background: lighten(#FF9900, 25%);
+   color: #131212;
+  }
+
+	.buyAudible {
+		background: #298bc9;
+		color: #131212;
+	}
+
+	.buyAudible:hover {
+	 background: lighten(#298bc9, 25%);
    color: #131212;
   }
 
