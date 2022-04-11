@@ -20,6 +20,8 @@ reviewCount: 1
 ---
 Almost two decades after Sydney's father was imprisoned for being the ‘Lipstick Killer,’ she and her family are finally happy. They have new identities, and the secret that her father was a notorious serial killer is one Sydney and her mother will never share, not even with her brother, who was an infant when their lives were changed forever.
 \
-\Sydney has a job she loves processing crime scenes. After several months of dating, she's starting to think she has found a man that could be the one. Just when she starts to allow herself to think her past might actually be behind her, a woman is discovered murdered, wearing the shade of lipstick her father put on the victims of his brutal killings.
 \
-\As more evidence turns up, Sydney must decide if she should go to the police and risk blowing up this new life they've built or keep quiet?
+Sydney has a job she loves processing crime scenes. After several months of dating, she's starting to think she has found a man that could be the one. Just when she starts to allow herself to think her past might actually be behind her, a woman is discovered murdered, wearing the shade of lipstick her father put on the victims of his brutal killings.
+\
+\
+As more evidence turns up, Sydney must decide if she should go to the police and risk blowing up this new life they've built or keep quiet?
