@@ -44,6 +44,12 @@ collections:
     output: true
     title: Genre
     permalink: /genre/:path/
+  events:
+    output: true
+    title: Events
+  press:
+    output: true
+    title: Press
 
 # Build settings
 markdown: kramdown

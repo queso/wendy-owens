@@ -526,11 +526,11 @@
   background: var(--ribbon-color);
   position: absolute;
   text-align: center;
-  line-height: 50px;
+  line-height: 45px;
   letter-spacing: 1px;
   color: #f0f0f0;
 	writing-mode: vertical-lr;
-	opacity: 0.95;
+	opacity: 0.75;
 }
 
 .corner-ribbon.shadow{
@@ -538,13 +538,24 @@
 }
 
 .corner-ribbon.bottom-right{
-  top: 152px;
+  top: 145px;
   bottom: -153px;
-  left: 207px;
+  left: 190px;
   transform: rotate(225deg);
   -webkit-transform: rotate(225deg);
 }
 .ribbon-text {
 	justify-content: center;
   display: flex;
+}
+
+.events {
+	 background: $cream;
+    height: auto;
+    padding: 15px 25px;;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.7;
+    font-size: 16px;
+    font-weight: 400;
+
 }

@@ -410,3 +410,31 @@
         }
     }
 }
+
+.press-events-page {
+    margin-bottom: 90px;
+}
+.event {
+    padding-bottom: 5px;
+}
+
+.event:first-child {
+    margin-bottom: 20px;
+}
+.event-heading-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .event-heading {
+        padding-top: 20px;
+        font-size: 25px;
+    }
+
+     .event-meta {
+        display: inherit;
+        flex-direction: inherit;
+        align-items: inherit;
+    }
+}
+
