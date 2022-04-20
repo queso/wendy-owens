@@ -4,7 +4,7 @@ title: Press and Events
 permalink: /press-events/
 ---
 
-{% assign upcomingEvents =  site.events | sort: 'date' | reverse %}
+{% assign upcomingEvents =  site.data.events | sort: 'date' | reverse %}
 
 <div class="page-content">
   <div id="press-events" class="content-section press-events-page">
@@ -38,14 +38,14 @@ permalink: /press-events/
           </div>
         </div>
       </div>
-      {% if site.press.size > 0 %}
+      {% if site.data.press.size %}
       <div class="section-heading">
         <h3 class="heading" style='margin-top: 50px;'>Selected Press</h3>
       </div>
       <div class="row">
         <div class="col-md-12 col-lg-10 col-lg-offset-1">
           <div class="events">
-            {% for p in site.press %}
+            {% for p in site.data.press %}
                 <div class="event">
                     <div class="event-heading-container">
                       <h4 class="event-heading"><a href="{{ p.link }}">{{ p.name }}</a></h4>
