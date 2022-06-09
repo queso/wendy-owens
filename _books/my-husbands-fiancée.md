@@ -4,15 +4,15 @@ title: My Husband's Fiancée
 genre: Psychological Thriller
 genre_position: 1
 cover-image: /img/my-husband-s-fiancée-ebook-complete-1-.jpg
-category: latest
 series: My Husband's Fiancee
+category: latest
 permalink: /books/My-Husbands-Fiancee
 price: $4.99
 bookNumber: 1
 amazonLink: ""
 buyLinks:
   - name: Amazon
-    link: https://www.amazon.com/My-Husbands-Fianc%C3%A9e-suspenseful-psychological-ebook/dp/B09D19123C/ref=sr_1_3?dchild=1&keywords=my+husbands+fiancee&qid=1633617610&sr=8-3
+    link: https://amzn.to/3xBBJr1
     logo: amazon
   - name: Audible
     logo: audible
