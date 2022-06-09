@@ -16,7 +16,7 @@ buyLinks:
     logo: amazon
   - name: Audible
     logo: audible
-    link: https://www.audible.com/pd/My-Husbands-Fiance-Audiobook/B09LNMK4QG?ref=a_author_We_c19_lProduct_1_1&pf_rd_p=1ae0e65e-ad09-4aa7-aa73-772cefb1b5e1&pf_rd_r=C0AD7MM7MF8FA2B66JFY
+    link: https://amzn.to/3xA440P
 rating: 4.2
 reviewCount: 1416
 ---
