@@ -7,7 +7,7 @@ cover-image: /img/the-day-we-died.jpg
 category: latest
 series: The Sydney Booth Series
 permalink: /books/The-Day-We-Died
-preorder: true
+preorder: false
 price: $4.99
 bookNumber: 1
 amazonLink: ""
