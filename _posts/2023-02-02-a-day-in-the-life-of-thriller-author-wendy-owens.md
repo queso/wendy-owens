@@ -10,6 +10,12 @@ image: /img/desk.jpg
 ---
 Have you ever wondered what a day in the life of a thriller author looks like? Well, buckle up because we're giving you a behind-the-scenes look at the routine of USA Today bestselling author, Wendy Owens.
 
+
+
+![](/img/desk.jpg)
+
+<!--more-->
+
 ## Starting the day with coffee
 
 Wendy starts her day just like most of us - with a cup of coffee. But, instead of scrolling through social media, she uses this time to catch up on the nightly news from the night before. It's no secret that staying informed is a crucial source of inspiration for any thriller writer. With the world constantly changing, Wendy needs to be in the know to craft the most intense and captivating storylines for her thriller books. You also never know when a news story might spark an idea for the next great psychological thriller.
