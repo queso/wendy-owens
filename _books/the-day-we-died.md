@@ -15,8 +15,8 @@ buyLinks:
   - name: Amazon
     link: https://www.amazon.com/gp/product/B09T5P6ZDM/ref=dbs_a_def_rwt_bibl_vppi_i2
     logo: amazon
-rating: 5
-reviewCount: 1
+rating: 4.3
+reviewCount: 63
 ---
 Almost two decades after Sydney's father was imprisoned for being the ‘Lipstick Killer,’ she and her family are finally happy. They have new identities, and the secret that her father was a notorious serial killer is one Sydney and her mother will never share, not even with her brother, who was an infant when their lives were changed forever.
 \
