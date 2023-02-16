@@ -10,7 +10,7 @@ As a thriller author, I am often asked why people enjoy reading and watching thr
 
 ![](/img/my-husband-s-fiancee-homepage-cover.png)
 
-<!-- more -->
+<!--more-->
 
 There's something about the combination of suspense, danger, and mystery that makes for an addictive read. But why do we enjoy feeling scared in the first place? As an author, I aim to create a story that hooks readers from the first page and keeps them guessing until the end.
 
